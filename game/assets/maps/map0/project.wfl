@@ -3455,6 +3455,10 @@
           {
             "key": "collision",
             "value": "jtalk|14|jtalk|15|Ya gotta start small kid, but you'll be like me in no time *wink*"
+          },
+          {
+            "key": "collision",
+            "value": "jtalk|15|jtalk|16|Now let's try this for real..."
           }
         ],
         "rotation": 0,
@@ -3486,7 +3490,7 @@
         "props": [
           {
             "key": "auto",
-            "value": "jtalk|15|map|map1"
+            "value": "jtalk|16|map|map1"
           }
         ],
         "rotation": 0,

@@ -4236,303 +4236,6 @@
       },
       {
         "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileGrass.png",
-          "name": "TileGrass"
-        },
-        "layer": "layer0",
-        "props": [],
-        "rotation": 0,
-        "x": 1113,
-        "y": -2322
-      },
-      {
-        "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileGrass.png",
-          "name": "TileGrass"
-        },
-        "layer": "layer0",
-        "props": [],
-        "rotation": 0,
-        "x": 1239,
-        "y": -2394
-      },
-      {
-        "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileGrass.png",
-          "name": "TileGrass"
-        },
-        "layer": "layer0",
-        "props": [],
-        "rotation": 0,
-        "x": 1365,
-        "y": -2466
-      },
-      {
-        "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileGrass.png",
-          "name": "TileGrass"
-        },
-        "layer": "layer0",
-        "props": [],
-        "rotation": 0,
-        "x": 1491,
-        "y": -2394
-      },
-      {
-        "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileGrass.png",
-          "name": "TileGrass"
-        },
-        "layer": "layer0",
-        "props": [],
-        "rotation": 0,
-        "x": 987,
-        "y": -2538
-      },
-      {
-        "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileGrass.png",
-          "name": "TileGrass"
-        },
-        "layer": "layer0",
-        "props": [],
-        "rotation": 0,
-        "x": 1113,
-        "y": -2466
-      },
-      {
-        "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileGrass.png",
-          "name": "TileGrass"
-        },
-        "layer": "layer0",
-        "props": [],
-        "rotation": 0,
-        "x": 1239,
-        "y": -2538
-      },
-      {
-        "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileGrass.png",
-          "name": "TileGrass"
-        },
-        "layer": "layer0",
-        "props": [],
-        "rotation": 0,
-        "x": 1365,
-        "y": -2610
-      },
-      {
-        "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileGrass.png",
-          "name": "TileGrass"
-        },
-        "layer": "layer0",
-        "props": [],
-        "rotation": 0,
-        "x": 1491,
-        "y": -2538
-      },
-      {
-        "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileGrass.png",
-          "name": "TileGrass"
-        },
-        "layer": "layer0",
-        "props": [],
-        "rotation": 0,
-        "x": 1617,
-        "y": -2610
-      },
-      {
-        "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileGrass.png",
-          "name": "TileGrass"
-        },
-        "layer": "layer0",
-        "props": [],
-        "rotation": 0,
-        "x": 1491,
-        "y": -2682
-      },
-      {
-        "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileGrass.png",
-          "name": "TileGrass"
-        },
-        "layer": "layer0",
-        "props": [],
-        "rotation": 0,
-        "x": 1365,
-        "y": -2754
-      },
-      {
-        "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileGrass.png",
-          "name": "TileGrass"
-        },
-        "layer": "layer0",
-        "props": [],
-        "rotation": 0,
-        "x": 1239,
-        "y": -2682
-      },
-      {
-        "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileGrass.png",
-          "name": "TileGrass"
-        },
-        "layer": "layer0",
-        "props": [],
-        "rotation": 0,
-        "x": 1113,
-        "y": -2610
-      },
-      {
-        "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileGrass.png",
-          "name": "TileGrass"
-        },
-        "layer": "layer0",
-        "props": [],
-        "rotation": 0,
-        "x": 987,
-        "y": -2682
-      },
-      {
-        "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileGrass.png",
-          "name": "TileGrass"
-        },
-        "layer": "layer0",
-        "props": [],
-        "rotation": 0,
-        "x": 1113,
-        "y": -2754
-      },
-      {
-        "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileGrass.png",
-          "name": "TileGrass"
-        },
-        "layer": "layer0",
-        "props": [],
-        "rotation": 0,
-        "x": 1239,
-        "y": -2826
-      },
-      {
-        "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileGrass.png",
-          "name": "TileGrass"
-        },
-        "layer": "layer0",
-        "props": [],
-        "rotation": 0,
-        "x": 1365,
-        "y": -2898
-      },
-      {
-        "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileGrass.png",
-          "name": "TileGrass"
-        },
-        "layer": "layer0",
-        "props": [],
-        "rotation": 0,
-        "x": 1491,
-        "y": -2826
-      },
-      {
-        "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileGrass.png",
-          "name": "TileGrass"
-        },
-        "layer": "layer0",
-        "props": [],
-        "rotation": 0,
-        "x": 1617,
-        "y": -2754
-      },
-      {
-        "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileGrass.png",
-          "name": "TileGrass"
-        },
-        "layer": "layer0",
-        "props": [],
-        "rotation": 0,
-        "x": 987,
-        "y": -2826
-      },
-      {
-        "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileGrass.png",
-          "name": "TileGrass"
-        },
-        "layer": "layer0",
-        "props": [],
-        "rotation": 0,
-        "x": 1113,
-        "y": -2898
-      },
-      {
-        "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileGrass.png",
-          "name": "TileGrass"
-        },
-        "layer": "layer0",
-        "props": [],
-        "rotation": 0,
-        "x": 987,
-        "y": -2970
-      },
-      {
-        "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileGrass.png",
-          "name": "TileGrass"
-        },
-        "layer": "layer0",
-        "props": [],
-        "rotation": 0,
-        "x": 1239,
-        "y": -2970
-      },
-      {
-        "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileGrass.png",
-          "name": "TileGrass"
-        },
-        "layer": "layer0",
-        "props": [],
-        "rotation": 0,
-        "x": 1491,
-        "y": -2970
-      },
-      {
-        "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileGrass.png",
-          "name": "TileGrass"
-        },
-        "layer": "layer0",
-        "props": [],
-        "rotation": 0,
-        "x": 1617,
-        "y": -2898
-      },
-      {
-        "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileGrass.png",
-          "name": "TileGrass"
-        },
-        "layer": "layer0",
-        "props": [],
-        "rotation": 0,
-        "x": 1743,
-        "y": -2826
-      },
-      {
-        "entity": {
           "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\BlockFull.png",
           "name": "BlockFull"
         },
@@ -5754,6 +5457,303 @@
       },
       {
         "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileGrass.png",
+          "name": "TileGrass"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": 987,
+        "y": -2538
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileGrass.png",
+          "name": "TileGrass"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": 1491,
+        "y": -2682
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileGrass.png",
+          "name": "TileGrass"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": 1113,
+        "y": -2466
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileGrass.png",
+          "name": "TileGrass"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": 1113,
+        "y": -2898
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileGrass.png",
+          "name": "TileGrass"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": 1365,
+        "y": -2754
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileGrass.png",
+          "name": "TileGrass"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": 1491,
+        "y": -2970
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileGrass.png",
+          "name": "TileGrass"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": 1239,
+        "y": -2970
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileGrass.png",
+          "name": "TileGrass"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": 1617,
+        "y": -2610
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileGrass.png",
+          "name": "TileGrass"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": 1239,
+        "y": -2826
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileGrass.png",
+          "name": "TileGrass"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": 1491,
+        "y": -2826
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileGrass.png",
+          "name": "TileGrass"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": 1239,
+        "y": -2682
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileGrass.png",
+          "name": "TileGrass"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": 1365,
+        "y": -2610
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileGrass.png",
+          "name": "TileGrass"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": 1743,
+        "y": -2826
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileGrass.png",
+          "name": "TileGrass"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": 1239,
+        "y": -2394
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileGrass.png",
+          "name": "TileGrass"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": 1239,
+        "y": -2538
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileGrass.png",
+          "name": "TileGrass"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": 987,
+        "y": -2682
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileGrass.png",
+          "name": "TileGrass"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": 1491,
+        "y": -2538
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileGrass.png",
+          "name": "TileGrass"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": 987,
+        "y": -2826
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileGrass.png",
+          "name": "TileGrass"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": 1491,
+        "y": -2394
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileGrass.png",
+          "name": "TileGrass"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": 1617,
+        "y": -2898
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileGrass.png",
+          "name": "TileGrass"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": 1617,
+        "y": -2754
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileGrass.png",
+          "name": "TileGrass"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": 1113,
+        "y": -2754
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileGrass.png",
+          "name": "TileGrass"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": 987,
+        "y": -2970
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileGrass.png",
+          "name": "TileGrass"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": 1113,
+        "y": -2322
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileGrass.png",
+          "name": "TileGrass"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": 1365,
+        "y": -2466
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileGrass.png",
+          "name": "TileGrass"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": 1113,
+        "y": -2610
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileGrass.png",
+          "name": "TileGrass"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": 1365,
+        "y": -2898
+      },
+      {
+        "entity": {
           "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\SpawnPoint.png",
           "name": "SpawnPoint"
         },
@@ -5765,17 +5765,6 @@
       },
       {
         "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\NPCA0.png",
-          "name": "NPCA0"
-        },
-        "layer": "layer2",
-        "props": [],
-        "rotation": 0,
-        "x": 861,
-        "y": -1458
-      },
-      {
-        "entity": {
           "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\Jeremy0.png",
           "name": "Jeremy0"
         },
@@ -5784,6 +5773,17 @@
         "rotation": 0,
         "x": 231,
         "y": 342
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\NPCA0.png",
+          "name": "NPCA0"
+        },
+        "layer": "layer2",
+        "props": [],
+        "rotation": 0,
+        "x": 861,
+        "y": -1458
       },
       {
         "entity": {
@@ -5838,7 +5838,7 @@
           },
           {
             "key": "collision",
-            "value": "dtalk|11|dtalk|12|Since you're out here I'll assume you're -tileless-."
+            "value": "dtalk|11|dtalk|12|Since you're out here I'll assume you're... TILELESS."
           },
           {
             "key": "collision",
@@ -5846,7 +5846,7 @@
           },
           {
             "key": "collision",
-            "value": "dtalk|13|dtalk|14|And not all claimable tiles can be claimed the same way."
+            "value": "dtalk|13|dtalk|14|And not all claimable tiles can be claimed in the same ways."
           },
           {
             "key": "collision",
@@ -5871,7 +5871,28 @@
           "name": "EventBounds"
         },
         "layer": "layer3",
-        "props": [],
+        "props": [
+          {
+            "key": "collision",
+            "value": "jtalk2|0|jtalk2|1|... Heyyy kid, long time no chat~"
+          },
+          {
+            "key": "collision",
+            "value": "jtalk2|1|jtalk2|2|I know I gave you that tile before but..."
+          },
+          {
+            "key": "collision",
+            "value": "jtalk2|2|jtalk2|3|Let's just say it was the start of a good thing~"
+          },
+          {
+            "key": "collision",
+            "value": "jtalk2|3|jtalk2|4|Now..."
+          },
+          {
+            "key": "collision",
+            "value": "jtalk2|4|Go find your own tiles~ *wink*"
+          }
+        ],
         "rotation": 0,
         "x": 231,
         "y": 342
@@ -5884,5 +5905,5 @@
       "layer3"
     ]
   },
-  "lastChanged": 1492976124144
+  "lastChanged": 1492982636290
 }

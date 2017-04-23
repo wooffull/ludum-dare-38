@@ -60,6 +60,10 @@ Object.defineProperties(TextBox, {
   
   PADDING: {
     value: 5
+  },
+  
+  RUSH_SPEED: {
+    value: 1.5
   }
 });
 
@@ -100,7 +104,7 @@ TextBox.prototype = Object.freeze(Object.create(PhysicsObject.prototype, {
         var keys = this.keyboard;
 
         if (keys.isPressed(keys.SPACEBAR)) {
-          this.timeElapsed *= 2;
+          this.timeElapsed *= TextBox.RUSH_SPEED;
         }
       }
     }

@@ -52,19 +52,19 @@ var Player = function () {
 
 Object.defineProperties(Player, {
   MAX_SPEED : {
-    value : 2
+    value : 3
   },
   
   MAX_ACCELERATION : {
-    value : .4
+    value : .55
   },
   
   SPRINT_MAX_SPEED : {
-    value : 4
+    value : 6.5
   },
   
   SPRINT_BOOST_ACCELERATION : {
-    value : .5
+    value : .1
   },
 
   BOOST_ACCELERATION : {

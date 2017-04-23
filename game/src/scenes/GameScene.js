@@ -35,7 +35,7 @@ Object.defineProperties(GameScene, {
   },
   
   FADE_RATE: {
-    value: 0.005
+    value: 0.003
   },
   
   PropertyTag: {
