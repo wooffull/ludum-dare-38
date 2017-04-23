@@ -93,7 +93,6 @@ GameScene.prototype = Object.freeze(Object.create(Scene.prototype, {
   loadMap: {
     value: function () {
       var mapData = map.MapPool.get(this.map);
-      debugger;
       var levelData = mapData.level;
       var {gameObjects} = levelData;
       
@@ -266,6 +265,7 @@ GameScene.prototype = Object.freeze(Object.create(Scene.prototype, {
       this.addGameObject(textBox, 5);
       event.textBox = textBox;
       this.player.movementLock = false;
+      this.camera.follow(this.player);
     }
   },
   
@@ -279,6 +279,7 @@ GameScene.prototype = Object.freeze(Object.create(Scene.prototype, {
         string
       );
       textBox.hasNext = true;
+      this.camera.follow(event.obj);
       
       textBox.x = event.obj.x;
       textBox.y = event.obj.y - 75;

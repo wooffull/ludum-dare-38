@@ -39,7 +39,7 @@ var TextBox = function (PIXI, keyboard, player, text = "", displaySpeed = 25) {
   this.addChild(this.bgGraphic);
   this.addChild(this.textChild);
   
-  this.alpha = 0.9;
+  this.alpha = 0.95;
   
   this.player = player;
   
@@ -66,6 +66,19 @@ Object.defineProperties(TextBox, {
 TextBox.prototype = Object.freeze(Object.create(PhysicsObject.prototype, {
   update : {
     value : function (dt) {
+      // Snap to correct pixels for crisp text and graphic
+      this.textChild.x = Math.floor(this.textChild.x) + 0.5;
+      this.textChild.y = Math.floor(this.textChild.y) + 0.5;
+      this.x = Math.floor(this.x);
+      this.y = Math.floor(this.y);
+      if (this.children.indexOf(this.bgGraphic) >= 0) {
+        this.bgGraphic.x = Math.floor(this.bgGraphic.x) + 0.5;
+        this.bgGraphic.y = Math.floor(this.bgGraphic.y) + 0.5;
+      } else {
+        this.bgGraphicNext.x = Math.floor(this.bgGraphicNext.x) + 0.5;
+        this.bgGraphicNext.y = Math.floor(this.bgGraphicNext.y) + 0.5;
+      }
+
       this.timeElapsed += dt;
       let charsToShow = Math.floor(Math.min(
         this.timeElapsed * this.displaySpeed * TextBox.CHARS_PER_SECOND,
@@ -74,13 +87,15 @@ TextBox.prototype = Object.freeze(Object.create(PhysicsObject.prototype, {
       
       this.textChild.text = this.fullString.substr(0, charsToShow);
       
-      if (charsToShow === this.fullString.length && this.hasNext) {
-        if (this.children.indexOf(this.bgGraphic) >= 0) {
-          this.removeChild(this.bgGraphic);
-          this.addChildAt(this.bgGraphicNext);
+      if (charsToShow === this.fullString.length) {
+        if (this.hasNext) {
+          if (this.children.indexOf(this.bgGraphic) >= 0) {
+            this.removeChild(this.bgGraphic);
+            this.addChildAt(this.bgGraphicNext, 0);
+          }
+
+          this.handleInput();
         }
-        
-        this.handleInput();
       } else {
         var keys = this.keyboard;
 
@@ -93,7 +108,6 @@ TextBox.prototype = Object.freeze(Object.create(PhysicsObject.prototype, {
   
   onCollide: {
     value: function (obj) {
-      console.log(obj);
     }
   },
   
