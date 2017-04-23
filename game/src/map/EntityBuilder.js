@@ -12,6 +12,9 @@ const EntityBuilder = {
     if (entityName === "SpawnPoint") {
       className = entities["Player"];
     } else {
+      // Remove numbers from entityNames
+      entityName = entityName.replace(/[0-9]/g, '');
+      
       className = entities[entityName];
     }
     
@@ -20,6 +23,7 @@ const EntityBuilder = {
       g.position.x = gameObjectData.x;
       g.position.y = gameObjectData.y;
       g.rotation = gameObjectData.rotation;
+      g.customData.props = gameObjectData.props;
       
       // Get int from string ("layer0" -> 0)
       g.layer = gameObjectData.layer.match(/\d+/)[0];
