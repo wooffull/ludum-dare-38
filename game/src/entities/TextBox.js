@@ -7,7 +7,7 @@ var Assets        = util.Assets;
 var GameObject    = wfl.core.entities.GameObject;
 var PhysicsObject = wfl.core.entities.PhysicsObject;
 
-var TextBox = function (PIXI, keyboard, player, text = "", displaySpeed = 15) {
+var TextBox = function (PIXI, keyboard, player, text = "", displaySpeed = 25) {
   PhysicsObject.call(this);
   
   this.fullString = text;
@@ -20,8 +20,8 @@ var TextBox = function (PIXI, keyboard, player, text = "", displaySpeed = 15) {
   this.bgGraphicNext = new PIXI.Sprite.fromImage(Assets.TEXT_BOX_NEXT);
   this.textChild = new PIXI.extras.BitmapText("", { font: "18px ld38" });
   
-  // Idk why multiply padding by 3
-  this.textChild.maxWidth = this.bgGraphic.width - TextBox.PADDING * 3;
+  // Idk why multiply padding by 4
+  this.textChild.maxWidth = this.bgGraphic.width - TextBox.PADDING * 4;
 
   let offsetX = this.bgGraphic.width * 0.5;
   let offsetY = this.bgGraphic.height * 0.5;

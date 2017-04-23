@@ -9,8 +9,15 @@ module.exports = {
   BLOCK: "./assets/img/BlockFull.png",
   TILE_WATER: "./assets/img/TileWater.png",
   TILE_JEREMY: "./assets/img/TileJeremy.png",
+  TILE_OLD_JEREMY: "./assets/img/TileOldJeremy.png",
   TILE_GRASS: "./assets/img/TileGrass.png",
   TILE_VOID: "./assets/img/TileVoid.png",
+  TILE_CLAIMING: "./assets/img/TileClaiming.png",
+  TILE_CLAIMED: "./assets/img/TileClaimed.png",
+  
+  HOLE: "./assets/img/Hole.png",
+  HOLE_COVER: "./assets/img/HoleCover.png",
+  
   PLAYER: "./assets/img/Player.png",
   
   TEXT_BOX: "./assets/img/TextBox.png",

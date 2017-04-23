@@ -97,6 +97,14 @@ GameScene.prototype = Object.freeze(Object.create(Scene.prototype, {
           this.parseProperties(obj);
         }
       }
+      
+      var all = this.getGameObjects();
+      
+      for (const added of all) {
+        if (added.findReferences) {
+          added.findReferences(all, this.PIXI);
+        }
+      }
     }
   },
   

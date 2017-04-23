@@ -697,6 +697,14 @@ Scene.prototype = Object.freeze(Object.create(Scene.prototype, {
 
                 // Check for custom collision filters before proceeding
                 if (!obj0.canCollide(obj1) || !obj1.canCollide(obj0)) {
+                  // TODO: Handle collisions for objects that only want to 
+                  // check and not necessarily resolve
+                  if (obj0.checkBroadPhaseCollision(obj1)) {
+                    obj0.customData.collisionList.push(obj1.wflId);
+                    obj1.customData.collisionList.push(obj0.wflId);
+                    obj0.onCollide(obj1);
+                    obj1.onCollide(obj0);
+                  }
                   continue;
                 }
 
@@ -711,6 +719,16 @@ Scene.prototype = Object.freeze(Object.create(Scene.prototype, {
                   
                   this._finalizeCollision(obj0, obj1, collisionData);
                 }
+              }
+            
+            // TODO: Handle collisions for objects that only want to check
+            // and not necessarily resolve
+            } else {
+              if (obj0.checkBroadPhaseCollision(obj1)) {
+                obj0.customData.collisionList.push(obj1.wflId);
+                obj1.customData.collisionList.push(obj0.wflId);
+                obj0.onCollide(obj1);
+                obj1.onCollide(obj0);
               }
             }
           }

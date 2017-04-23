@@ -1,4 +1,3 @@
 module.exports = {
-  foo: "0",
-  baz: "0"
+  jtalk: "0"
 };

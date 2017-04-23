@@ -42,6 +42,9 @@ var Player = function () {
   // Set constants
   this.maxSpeed        = Player.MAX_SPEED;
   this.maxAcceleration = Player.MAX_ACCELERATION;
+  
+  this.mass = 10;
+  this.restitution = 0.8;
 };
 
 Object.defineProperties(Player, {
