@@ -70,9 +70,10 @@ GameScene.prototype = Object.freeze(Object.create(Scene.prototype, {
       this._stage.children.length = 0;
       this._lastDrawnGameObjects  = this._findSurroundingGameObjects(this.camera, 2).sort(
         (a, b) => {
-          // Sort objects on the same layer by their Y-coordinate
+          // Sort objects on the same layer by their bottom Y-coordinate
           if (a.layer === b.layer) {
-            return a.transform.position._y - b.transform.position._y;
+            return (a.transform.position._y + a.calculationCache.height * 0.5)
+                 - (b.transform.position._y + b.calculationCache.height * 0.5)
           
           // Otherwise, sort them by layer
           } else {
