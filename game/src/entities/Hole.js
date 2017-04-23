@@ -7,7 +7,9 @@ var GameObject    = wfl.core.entities.GameObject;
 var PhysicsObject = wfl.core.entities.PhysicsObject;
 var HoleCover = require('./HoleCover');
 var TileOldJeremy = require('./TileOldJeremy');
+var EventBounds = require('./EventBounds');
 var HexTile = require('./HexTile');
+var Conditions = require('../Conditions');
 
 var Hole = function () {
   PhysicsObject.call(this);
@@ -24,6 +26,7 @@ var Hole = function () {
   this.holeCover = null;
   this.filled = false;
   this.tile = null;
+  this.eventBounds = null;
 };
 
 Object.defineProperties(Hole, {
@@ -74,6 +77,34 @@ Hole.prototype = Object.freeze(Object.create(PhysicsObject.prototype, {
           break;
         
         case Hole.STATE.COMPLETE:
+          if (this.eventBounds) {
+            var props = this.eventBounds.customData.props;
+            
+            for (const p of props) {
+              if (p.key !== "tileClaim") continue;
+              
+              var args = p.value.split('|');
+
+              var conditions = args.length;
+              var eventSets = [];
+
+              for (var i = 0; i < conditions; i += 2) {
+                let cond = args[i];
+                let newVal  = args[i + 1];
+
+                eventSets.push({
+                  condition: cond,
+                  newValue: newVal
+                });
+              }
+
+              for (let set of eventSets) {
+                let {condition, newValue} = set;
+                Conditions[condition] = newValue;
+              }
+            }
+          }
+          
           this.customData.retired = true;
           this.holeCover.customData.retired = true;
           break;
@@ -104,10 +135,13 @@ Hole.prototype = Object.freeze(Object.create(PhysicsObject.prototype, {
   findReferences: {
     value: function (gameObjects) {
       var oldJeremyTiles = [];
+      var eventBounds = [];
       
       for (const g of gameObjects) {
         if (g instanceof TileOldJeremy) {
           oldJeremyTiles.push(g);
+        } else if (g instanceof EventBounds) {
+          eventBounds.push(g);
         }
       }
       
@@ -124,7 +158,30 @@ Hole.prototype = Object.freeze(Object.create(PhysicsObject.prototype, {
         return d0 - d1;
       });
       
-      this.tile = oldJeremyTiles[0];
+      eventBounds.sort((a, b) => {
+        var d0 = geom.Vec2.subtract(
+          a.position,
+          this.position
+        ).getMagnitudeSquared();
+        var d1 = geom.Vec2.subtract(
+          this.position, 
+          b.position
+        ).getMagnitudeSquared();
+        
+        return d0 - d1;
+      });
+      
+      if (oldJeremyTiles.length > 0) {
+        if (this.checkBroadPhaseCollision(oldJeremyTiles[0])) {
+          this.tile = oldJeremyTiles[0];
+        }
+      }
+      
+      if (eventBounds.length > 0) {
+        if (this.checkBroadPhaseCollision(eventBounds[0])) {
+          this.eventBounds = eventBounds[0];
+        }
+      }
     }
   },
   

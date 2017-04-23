@@ -33,7 +33,8 @@ Object.defineProperties(GameScene, {
   
   PropertyTag: {
     value: {
-      COLLISION: "collision"
+      COLLISION: "collision",
+      TILE_CLAIM: "tileClaim"
     }
   }
 });
@@ -210,7 +211,7 @@ GameScene.prototype = Object.freeze(Object.create(Scene.prototype, {
       );
       
       textBox.x = event.obj.x;
-      textBox.y = event.obj.y - 50;
+      textBox.y = event.obj.y - 75;
       
       // Layer 5 for higher objects like text boxes
       this.addGameObject(textBox, 5);
@@ -231,7 +232,7 @@ GameScene.prototype = Object.freeze(Object.create(Scene.prototype, {
       textBox.hasNext = true;
       
       textBox.x = event.obj.x;
-      textBox.y = event.obj.y - 50;
+      textBox.y = event.obj.y - 75;
       
       this.player.movementLock = true;
       this.player.acceleration.multiply(0);

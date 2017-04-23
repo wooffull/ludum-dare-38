@@ -5,6 +5,7 @@ var util          = require('../util');
 var Assets        = util.Assets;
 var GameObject    = wfl.core.entities.GameObject;
 var PhysicsObject = wfl.core.entities.PhysicsObject;
+var EventBounds = require('./EventBounds');
 
 var HexTile = function () {
   PhysicsObject.call(this);
@@ -108,6 +109,35 @@ HexTile.prototype = Object.freeze(Object.create(PhysicsObject.prototype, {
       this.claimedGraphic.y -= offsetY;
       
       this.claimingGraphic.alpha = 0;
+      
+      
+      
+      var eventBounds = [];
+      
+      for (const g of gameObjects) {
+        if (g instanceof EventBounds) {
+          eventBounds.push(g);
+        }
+      }
+      
+      eventBounds.sort((a, b) => {
+        var d0 = geom.Vec2.subtract(
+          a.position,
+          this.position
+        ).getMagnitudeSquared();
+        var d1 = geom.Vec2.subtract(
+          this.position, 
+          b.position
+        ).getMagnitudeSquared();
+        
+        return d0 - d1;
+      });
+      
+      if (eventBounds.length > 0) {
+        if (this.checkBroadPhaseCollision(eventBounds[0])) {
+          this.eventBounds = eventBounds[0];
+        }
+      }
     }
   }
 }));

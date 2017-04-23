@@ -140,10 +140,10 @@ Player.prototype = Object.freeze(Object.create(PhysicsObject.prototype, {
       // Add the current direction of movement to the stack (if any)
       if (lastPressed > -1) {
         switch (lastPressed) {
-          case keyboard.A:
-          case keyboard.D:
-          case keyboard.W:
-          case keyboard.S:
+          case keyboard.LEFT:
+          case keyboard.RIGHT:
+          case keyboard.UP:
+          case keyboard.DOWN:
             this._walkDirectionStack.push(lastPressed);
             break;
         }
@@ -153,19 +153,19 @@ Player.prototype = Object.freeze(Object.create(PhysicsObject.prototype, {
       var priorityCounter = 0;
       for (var i = 0; i < this._walkDirectionStack.length; i++) {
         switch (this._walkDirectionStack[i]) {
-          case keyboard.A:
+          case keyboard.LEFT:
             leftPriority = priorityCounter;
             priorityCounter++;
             break;
-          case keyboard.D:
+          case keyboard.RIGHT:
             rightPriority = priorityCounter;
             priorityCounter++;
             break;
-          case keyboard.W:
+          case keyboard.UP:
             upPriority = priorityCounter;
             priorityCounter++;
             break;
-          case keyboard.S:
+          case keyboard.DOWN:
             downPriority = priorityCounter;
             priorityCounter++;
             break;

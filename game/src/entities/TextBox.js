@@ -81,6 +81,12 @@ TextBox.prototype = Object.freeze(Object.create(PhysicsObject.prototype, {
         }
         
         this.handleInput();
+      } else {
+        var keys = this.keyboard;
+
+        if (keys.isPressed(keys.SPACEBAR)) {
+          this.timeElapsed *= 2;
+        }
       }
     }
   },
@@ -95,7 +101,7 @@ TextBox.prototype = Object.freeze(Object.create(PhysicsObject.prototype, {
     value: function () {
       var keys = this.keyboard;
       
-      if (keys.isPressed(keys.SPACEBAR)) {
+      if (keys.justPressed(keys.SPACEBAR)) {
         this.hasNext = false;
         $(this).trigger("next-text");
       }
