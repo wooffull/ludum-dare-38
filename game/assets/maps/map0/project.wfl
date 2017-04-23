@@ -1,0 +1,615 @@
+{
+  "title": "map0",
+  "dirname": "C:\\wamp\\www\\import-test\\game\\assets\\maps\\map0",
+  "level": {
+    "entities": [
+      {
+        "imageSource": "C:\\wamp\\www\\import-test\\game\\assets\\img\\BlockFull.png",
+        "name": "BlockFull"
+      },
+      {
+        "imageSource": "C:\\wamp\\www\\import-test\\game\\assets\\img\\SpawnPoint.png",
+        "name": "SpawnPoint"
+      },
+      {
+        "imageSource": "C:\\wamp\\www\\import-test\\game\\assets\\img\\TileWater.png",
+        "name": "TileWater"
+      },
+      {
+        "imageSource": "C:\\wamp\\www\\import-test\\game\\assets\\img\\TileVoid.png",
+        "name": "TileVoid"
+      },
+      {
+        "imageSource": "C:\\wamp\\www\\import-test\\game\\assets\\img\\TileGrass.png",
+        "name": "TileGrass"
+      }
+    ],
+    "gameObjects": [
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\import-test\\game\\assets\\img\\BlockFull.png",
+          "name": "BlockFull"
+        },
+        "layer": "layer0",
+        "rotation": 0,
+        "x": -147,
+        "y": -162
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\import-test\\game\\assets\\img\\BlockFull.png",
+          "name": "BlockFull"
+        },
+        "layer": "layer0",
+        "rotation": 0,
+        "x": -21,
+        "y": 54
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\import-test\\game\\assets\\img\\BlockFull.png",
+          "name": "BlockFull"
+        },
+        "layer": "layer0",
+        "rotation": 0,
+        "x": -273,
+        "y": -90
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\import-test\\game\\assets\\img\\BlockFull.png",
+          "name": "BlockFull"
+        },
+        "layer": "layer0",
+        "rotation": 0,
+        "x": -147,
+        "y": 126
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\import-test\\game\\assets\\img\\BlockFull.png",
+          "name": "BlockFull"
+        },
+        "layer": "layer0",
+        "rotation": 0,
+        "x": -21,
+        "y": -90
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\import-test\\game\\assets\\img\\BlockFull.png",
+          "name": "BlockFull"
+        },
+        "layer": "layer0",
+        "rotation": 0,
+        "x": -273,
+        "y": 54
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\import-test\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "rotation": 0,
+        "x": -525,
+        "y": -90
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\import-test\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "rotation": 0,
+        "x": -21,
+        "y": 342
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\import-test\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "rotation": 0,
+        "x": -525,
+        "y": 198
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\import-test\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "rotation": 0,
+        "x": -147,
+        "y": -450
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\import-test\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "rotation": 0,
+        "x": -273,
+        "y": -378
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\import-test\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "rotation": 0,
+        "x": -399,
+        "y": -306
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\import-test\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "rotation": 0,
+        "x": -273,
+        "y": -234
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\import-test\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "rotation": 0,
+        "x": -147,
+        "y": -306
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\import-test\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "rotation": 0,
+        "x": -21,
+        "y": -234
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\import-test\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "rotation": 0,
+        "x": -399,
+        "y": 270
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\import-test\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "rotation": 0,
+        "x": -147,
+        "y": 270
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\import-test\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "rotation": 0,
+        "x": -273,
+        "y": 198
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\import-test\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "rotation": 0,
+        "x": -399,
+        "y": 126
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\import-test\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "rotation": 0,
+        "x": -21,
+        "y": -378
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\import-test\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "rotation": 0,
+        "x": -525,
+        "y": -234
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\import-test\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "rotation": 0,
+        "x": -147,
+        "y": 414
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\import-test\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "rotation": 0,
+        "x": -399,
+        "y": -162
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\import-test\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "rotation": 0,
+        "x": -525,
+        "y": 54
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\import-test\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "rotation": 0,
+        "x": -21,
+        "y": 198
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\import-test\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "rotation": 0,
+        "x": -399,
+        "y": -18
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\import-test\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "rotation": 0,
+        "x": -273,
+        "y": 342
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\import-test\\game\\assets\\img\\TileVoid.png",
+          "name": "TileVoid"
+        },
+        "layer": "layer0",
+        "rotation": 0,
+        "x": -147,
+        "y": -18
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\import-test\\game\\assets\\img\\TileGrass.png",
+          "name": "TileGrass"
+        },
+        "layer": "layer0",
+        "rotation": 0,
+        "x": 105,
+        "y": 126
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\import-test\\game\\assets\\img\\TileGrass.png",
+          "name": "TileGrass"
+        },
+        "layer": "layer0",
+        "rotation": 0,
+        "x": 105,
+        "y": -18
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\import-test\\game\\assets\\img\\TileGrass.png",
+          "name": "TileGrass"
+        },
+        "layer": "layer0",
+        "rotation": 0,
+        "x": 105,
+        "y": -162
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\import-test\\game\\assets\\img\\TileGrass.png",
+          "name": "TileGrass"
+        },
+        "layer": "layer0",
+        "rotation": 0,
+        "x": 231,
+        "y": -234
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\import-test\\game\\assets\\img\\TileGrass.png",
+          "name": "TileGrass"
+        },
+        "layer": "layer0",
+        "rotation": 0,
+        "x": 231,
+        "y": -90
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\import-test\\game\\assets\\img\\TileGrass.png",
+          "name": "TileGrass"
+        },
+        "layer": "layer0",
+        "rotation": 0,
+        "x": 231,
+        "y": 54
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\import-test\\game\\assets\\img\\TileGrass.png",
+          "name": "TileGrass"
+        },
+        "layer": "layer0",
+        "rotation": 0,
+        "x": 231,
+        "y": 198
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\import-test\\game\\assets\\img\\TileGrass.png",
+          "name": "TileGrass"
+        },
+        "layer": "layer0",
+        "rotation": 0,
+        "x": 357,
+        "y": 126
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\import-test\\game\\assets\\img\\TileGrass.png",
+          "name": "TileGrass"
+        },
+        "layer": "layer0",
+        "rotation": 0,
+        "x": 357,
+        "y": -18
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\import-test\\game\\assets\\img\\TileGrass.png",
+          "name": "TileGrass"
+        },
+        "layer": "layer0",
+        "rotation": 0,
+        "x": 357,
+        "y": -162
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\import-test\\game\\assets\\img\\TileGrass.png",
+          "name": "TileGrass"
+        },
+        "layer": "layer0",
+        "rotation": 0,
+        "x": 357,
+        "y": -306
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\import-test\\game\\assets\\img\\TileGrass.png",
+          "name": "TileGrass"
+        },
+        "layer": "layer0",
+        "rotation": 0,
+        "x": 105,
+        "y": -306
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\import-test\\game\\assets\\img\\TileGrass.png",
+          "name": "TileGrass"
+        },
+        "layer": "layer0",
+        "rotation": 0,
+        "x": 231,
+        "y": -378
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\import-test\\game\\assets\\img\\TileGrass.png",
+          "name": "TileGrass"
+        },
+        "layer": "layer0",
+        "rotation": 0,
+        "x": 483,
+        "y": -234
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\import-test\\game\\assets\\img\\TileGrass.png",
+          "name": "TileGrass"
+        },
+        "layer": "layer0",
+        "rotation": 0,
+        "x": 483,
+        "y": -90
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\import-test\\game\\assets\\img\\TileGrass.png",
+          "name": "TileGrass"
+        },
+        "layer": "layer0",
+        "rotation": 0,
+        "x": 483,
+        "y": 54
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\import-test\\game\\assets\\img\\TileGrass.png",
+          "name": "TileGrass"
+        },
+        "layer": "layer0",
+        "rotation": 0,
+        "x": 483,
+        "y": 198
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\import-test\\game\\assets\\img\\TileGrass.png",
+          "name": "TileGrass"
+        },
+        "layer": "layer0",
+        "rotation": 0,
+        "x": 357,
+        "y": 270
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\import-test\\game\\assets\\img\\TileGrass.png",
+          "name": "TileGrass"
+        },
+        "layer": "layer0",
+        "rotation": 0,
+        "x": 231,
+        "y": 342
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\import-test\\game\\assets\\img\\TileGrass.png",
+          "name": "TileGrass"
+        },
+        "layer": "layer0",
+        "rotation": 0,
+        "x": 105,
+        "y": 270
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\import-test\\game\\assets\\img\\TileGrass.png",
+          "name": "TileGrass"
+        },
+        "layer": "layer0",
+        "rotation": 0,
+        "x": 105,
+        "y": 414
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\import-test\\game\\assets\\img\\TileGrass.png",
+          "name": "TileGrass"
+        },
+        "layer": "layer0",
+        "rotation": 0,
+        "x": 357,
+        "y": 414
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\import-test\\game\\assets\\img\\TileGrass.png",
+          "name": "TileGrass"
+        },
+        "layer": "layer0",
+        "rotation": 0,
+        "x": 231,
+        "y": 486
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\import-test\\game\\assets\\img\\TileGrass.png",
+          "name": "TileGrass"
+        },
+        "layer": "layer0",
+        "rotation": 0,
+        "x": 483,
+        "y": 342
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\import-test\\game\\assets\\img\\TileGrass.png",
+          "name": "TileGrass"
+        },
+        "layer": "layer0",
+        "rotation": 0,
+        "x": 609,
+        "y": 270
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\import-test\\game\\assets\\img\\TileGrass.png",
+          "name": "TileGrass"
+        },
+        "layer": "layer0",
+        "rotation": 0,
+        "x": 609,
+        "y": 126
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\import-test\\game\\assets\\img\\TileGrass.png",
+          "name": "TileGrass"
+        },
+        "layer": "layer0",
+        "rotation": 0,
+        "x": 609,
+        "y": -18
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\import-test\\game\\assets\\img\\TileGrass.png",
+          "name": "TileGrass"
+        },
+        "layer": "layer0",
+        "rotation": 0,
+        "x": 609,
+        "y": -162
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\import-test\\game\\assets\\img\\TileGrass.png",
+          "name": "TileGrass"
+        },
+        "layer": "layer0",
+        "rotation": 0,
+        "x": 609,
+        "y": -306
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\import-test\\game\\assets\\img\\SpawnPoint.png",
+          "name": "SpawnPoint"
+        },
+        "layer": "layer1",
+        "rotation": 0,
+        "x": -21,
+        "y": 54
+      }
+    ],
+    "layers": [
+      "layer0",
+      "layer1"
+    ]
+  },
+  "lastChanged": 1492895950678
+}
