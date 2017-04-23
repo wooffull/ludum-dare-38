@@ -24,7 +24,7 @@ var HoleCover = function () {
   
   this.mass = 0.1;
   this.restitution = 0.5;
-  this.friction = 0.4;
+  this.friction = 0.0;
   
   this.ignorePlayer = false;
 };

@@ -14,6 +14,7 @@ var GameScene = function (canvas, PIXI) {
   
   this.map = null;
   this.touchEventBounds = [];
+  this.autoEventBounds = [];
   
   this.PIXI = PIXI;
 };
@@ -34,6 +35,7 @@ Object.defineProperties(GameScene, {
   PropertyTag: {
     value: {
       COLLISION: "collision",
+      AUTO: "auto",
       TILE_CLAIM: "tileClaim"
     }
   }
@@ -47,6 +49,9 @@ GameScene.prototype = Object.freeze(Object.create(Scene.prototype, {
       this._handleInput();
       
       Scene.prototype.update.call(this, dt);
+      
+      this.checkAutoEvents();
+      this._handleConditions();
     }
   },
   
@@ -87,7 +92,8 @@ GameScene.prototype = Object.freeze(Object.create(Scene.prototype, {
   
   loadMap: {
     value: function () {
-      var mapData = map.MapPool.get(Assets.maps[0].key);
+      var mapData = map.MapPool.get(this.map);
+      debugger;
       var levelData = mapData.level;
       var {gameObjects} = levelData;
       
@@ -121,6 +127,15 @@ GameScene.prototype = Object.freeze(Object.create(Scene.prototype, {
     }
   },
   
+  setupAutoEvent: {
+    value: function (obj, data) {
+      this.autoEventBounds.push({
+        obj: obj,
+        data: data
+      });
+    }
+  },
+  
   parseProperties: {
     value: function (obj) {
       var props = obj.customData.props;
@@ -131,6 +146,42 @@ GameScene.prototype = Object.freeze(Object.create(Scene.prototype, {
         
         if (key === GameScene.PropertyTag.COLLISION) {
           this.linkTouchEvent(obj, value);
+        } else if (key === GameScene.PropertyTag.AUTO) {
+          this.setupAutoEvent(obj, value);
+        }
+      }
+    }
+  },
+  
+  checkAutoEvents: {
+    value: function () {
+      for (const ev of this.autoEventBounds) {
+        var data = ev.data;
+        var args = data.split('|');
+
+        var condition1 = args[0];
+        var expected = args[1];
+        var conditions = args.length - 2;
+        var eventSets = [];
+        
+
+        for (var i = 0; i < conditions; i += 2) {
+          let cond = args[2 + i];
+          let newVal  = args[2 + i + 1];
+
+          eventSets.push({
+            condition: cond,
+            newValue: newVal
+          });
+        }
+
+        if (Conditions[condition1] === expected) {
+          for (let set of eventSets) {
+            let {condition, newValue} = set;
+            Conditions[condition] = newValue;
+          }
+          
+          this.autoEventBounds.splice(this.autoEventBounds.indexOf(ev), 1);
         }
       }
     }
@@ -138,8 +189,6 @@ GameScene.prototype = Object.freeze(Object.create(Scene.prototype, {
   
   checkTouchEvents: {
     value: function () {
-      
-     // console.log(Conditions);
       for (const ev of this.touchEventBounds) {
         if (this.player.checkBroadPhaseCollision(ev.obj)) {
           if (!ev.active) {
@@ -302,6 +351,19 @@ GameScene.prototype = Object.freeze(Object.create(Scene.prototype, {
       this.checkTouchEvents();
       
       Scene.prototype._handleCollisions.call(this, gameObjects);
+    }
+  },
+  
+  _handleConditions: {
+    value: function () {
+      if (Conditions.map !== this.map) {
+        var newScene = new GameScene(this.canvas, this.PIXI);
+        newScene.setMap(Conditions.map);
+        newScene.loadMap();
+        this.change(newScene);
+        
+        this.reset();
+      }
     }
   }
 }));

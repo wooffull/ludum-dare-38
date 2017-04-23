@@ -3,6 +3,7 @@
 module.exports = {
   maps: [
     {key: 'map0', path: './assets/maps/map0.json'},
+    {key: 'map1', path: './assets/maps/map1.json'},
   ],
   
   // MY_GRAPHIC: "./assets/img/MY_GRAPHIC.png",
