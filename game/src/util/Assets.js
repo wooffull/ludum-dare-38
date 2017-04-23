@@ -13,6 +13,9 @@ module.exports = {
   TILE_OLD_JEREMY: "./assets/img/TileOldJeremy.png",
   TILE_GRASS: "./assets/img/TileGrass.png",
   TILE_SAND: "./assets/img/TileSand.png",
+  TILE_FREE0: "./assets/img/TileFree0.png",
+  TILE_FREE1: "./assets/img/TileFree1.png",
+  TILE_FREE2: "./assets/img/TileFree2.png",
   TILE_VOID: "./assets/img/TileVoid.png",
   TILE_CLAIMING: "./assets/img/TileClaiming.png",
   TILE_CLAIMED: "./assets/img/TileClaimed.png",
@@ -23,6 +26,10 @@ module.exports = {
   BLACK_BOX: "./assets/img/BlackBox.png",
   
   PLAYER: "./assets/img/Player.png",
+  PLAYER_L0: "./assets/img/PlayerL0.png",
+  PLAYER_L1: "./assets/img/PlayerL1.png",
+  PLAYER_R0: "./assets/img/PlayerR0.png",
+  PLAYER_R1: "./assets/img/PlayerR1.png",
   
   TEXT_BOX: "./assets/img/TextBox.png",
   TEXT_BOX_NEXT: "./assets/img/TextBoxNext.png",

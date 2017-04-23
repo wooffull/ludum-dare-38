@@ -6,6 +6,7 @@ var Assets        = util.Assets;
 var GameObject    = wfl.core.entities.GameObject;
 var PhysicsObject = wfl.core.entities.PhysicsObject;
 var EventBounds = require('./EventBounds');
+var Player = require('./Player');
 
 var HexTile = function () {
   PhysicsObject.call(this);
@@ -26,6 +27,8 @@ var HexTile = function () {
   this.claimedGraphic = null;
   
   this.claimTransition = 0;
+  this.eventBounds = null;
+  this.player = null;
   
   this.PIXI = null;
 };
@@ -117,6 +120,8 @@ HexTile.prototype = Object.freeze(Object.create(PhysicsObject.prototype, {
       for (const g of gameObjects) {
         if (g instanceof EventBounds) {
           eventBounds.push(g);
+        } else if (g instanceof Player) {
+          this.player = g;
         }
       }
       

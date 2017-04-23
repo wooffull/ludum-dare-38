@@ -12,8 +12,8 @@ var NPCC = function () {
   this.myGraphic1 = Assets.get(Assets.NPC_C0).texture;
   this.myGraphic2 = Assets.get(Assets.NPC_C1).texture;
   this.stateIdle = GameObject.createState();
-  this.frameIdle1 = GameObject.createFrame(this.myGraphic1, 30);
-  this.frameIdle2 = GameObject.createFrame(this.myGraphic2, 30);
+  this.frameIdle1 = GameObject.createFrame(this.myGraphic1, 45);
+  this.frameIdle2 = GameObject.createFrame(this.myGraphic2, 45);
   this.stateIdle.addFrame(this.frameIdle1);
   this.stateIdle.addFrame(this.frameIdle2);
   this.addState(NPCC.STATE.IDLE, this.stateIdle);

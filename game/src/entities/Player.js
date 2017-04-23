@@ -8,33 +8,36 @@ var PhysicsObject = wfl.core.entities.PhysicsObject;
 
 var Player = function () {
   PhysicsObject.call(this);
+  
+  var verts = [
+    new geom.Vec2(-32, -32),
+    new geom.Vec2(32, -32),
+    new geom.Vec2(32, 32),
+    new geom.Vec2(-32, 32)
+  ]
 
-  this.myGraphic1 = Assets.get(Assets.PLAYER).texture;
-  this.stateIdle = GameObject.createState();
-  this.frameIdle1 = GameObject.createFrame(this.myGraphic1, 15);
-  this.stateIdle.addFrame(this.frameIdle1);
-  this.addState(Player.STATE.IDLE, this.stateIdle);
-
-  // Reference graphics
-  /*
-  this.myGraphic1 = Assets.get(Assets.MY_GRAPHIC).texture;
-  this.myGraphic2 = Assets.get(Assets.MY_GRAPHIC).texture;
-  */
-
-  // Create state
-  /*
-  this.stateIdle = GameObject.createState();
-
-  this.frameIdle1 = GameObject.createFrame(this.myGraphic1, 15);
-  this.frameIdle2 = GameObject.createFrame(this.myGraphic2, 15);
-  this.stateIdle.addFrame(this.frameIdle1);
-  this.stateIdle.addFrame(this.frameIdle2);
-  */
-
-  // Add states
-  /*
-  this.addState(Player.STATE.IDLE, this.stateIdle);
-  */
+  this.myGraphic1 = Assets.get(Assets.PLAYER_L0).texture;
+  this.myGraphic2 = Assets.get(Assets.PLAYER_L1).texture;
+  this.myGraphic3 = Assets.get(Assets.PLAYER_R0).texture;
+  this.myGraphic4 = Assets.get(Assets.PLAYER_R1).texture;
+  
+  this.stateLeft = GameObject.createState();
+  this.frameIdle1 = GameObject.createFrame(this.myGraphic1, 30, verts);
+  this.frameIdle2 = GameObject.createFrame(this.myGraphic2, 30, verts);
+  this.frameIdle1.y -= 28;
+  this.frameIdle2.y -= 28;
+  this.stateLeft.addFrame(this.frameIdle1);
+  this.stateLeft.addFrame(this.frameIdle2);
+  this.addState(Player.STATE.LEFT, this.stateLeft);
+  
+  this.stateRight = GameObject.createState();
+  this.frameIdle3 = GameObject.createFrame(this.myGraphic3, 30, verts);
+  this.frameIdle4 = GameObject.createFrame(this.myGraphic4, 30, verts);
+  this.frameIdle3.y -= 28;
+  this.frameIdle4.y -= 28;
+  this.stateRight.addFrame(this.frameIdle3);
+  this.stateRight.addFrame(this.frameIdle4);
+  this.addState(Player.STATE.RIGHT, this.stateRight);
 
   // The top of the stack determines which direction the player faces
   this._walkDirectionStack = [];
@@ -72,7 +75,8 @@ Object.defineProperties(Player, {
   },
   STATE : {
     value : {
-      IDLE : "IDLE",
+      LEFT : "LEFT",
+      RIGHT : "RIGHT"
     }
   }
 });
@@ -101,22 +105,6 @@ Player.prototype = Object.freeze(Object.create(PhysicsObject.prototype, {
         break;
       }
       */
-    }
-  },
-    
-  // Extend player stuff here 
-  resolveCollision : {
-    value : function (physObj, collisionData) {
-      // Use custom collision resolution
-      if (physObj.solid) {
-        this.acceleration.multiply(0);
-
-        if (collisionData.direction) {
-          this.velocity.x = collisionData.direction.x * 0.1;
-          this.velocity.y = collisionData.direction.y * 0.1;
-          this.position.add(collisionData.direction);
-        }
-      }
     }
   },
   
@@ -191,6 +179,7 @@ Player.prototype = Object.freeze(Object.create(PhysicsObject.prototype, {
         );
 
         this.addForce(movementForce);
+        this.setState(Player.STATE.LEFT);
       } 
       if (rightPriority > leftPriority) {
         var movementForce = new geom.Vec2(1, 0);
@@ -198,7 +187,8 @@ Player.prototype = Object.freeze(Object.create(PhysicsObject.prototype, {
           boost * this.mass
         );
 
-        this.addForce(movementForce)
+        this.addForce(movementForce);
+        this.setState(Player.STATE.RIGHT);
       }
       if (upPriority > downPriority) {
         var movementForce = new geom.Vec2(0, -1);

@@ -6,5 +6,8 @@ module.exports = {
   // Darell
   dtalk: "0",
   
+  // Maxy
+  mtalk: "0",
+  
   map: "map1"
 };

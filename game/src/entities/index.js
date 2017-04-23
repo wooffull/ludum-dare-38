@@ -8,6 +8,7 @@ var TileJeremy = require('./TileJeremy.js');
 var TileOldJeremy = require('./TileOldJeremy.js');
 var TileGrass = require('./TileGrass.js');
 var TileSand = require('./TileSand.js');
+var TileFree = require('./TileFree.js');
 var TileVoid = require('./TileVoid.js');
 
 var Hole = require('./Hole.js');
@@ -32,6 +33,7 @@ module.exports = {
   TileOldJeremy: TileOldJeremy,
   TileGrass: TileGrass,
   TileSand: TileSand,
+  TileFree: TileFree,
   TileVoid: TileVoid,
   
   Hole: Hole,

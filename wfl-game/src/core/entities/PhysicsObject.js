@@ -783,9 +783,22 @@ PhysicsObject.prototype = Object.freeze(Object.create(GameObject.prototype, {
     value: function () {
       // Optimization: Includes GameObject's cacheCalculations() via copypaste
       // to prevent call()
+      var verts = this.vertices;
+      var minX = Infinity;
+      var maxX = -Infinity;
+      var minY = Infinity;
+      var maxY = -Infinity; 
+      
+      for (let v of verts) {
+        if (v.x < minX) minX = v.x;
+        if (v.x > maxX) maxX = v.x;
+        if (v.y < minY) minY = v.y;
+        if (v.y > maxY) maxY = v.y;
+      }
+      
       var position     = this.transform.position;
-      var width        = this.scale.x * this.getLocalBounds().width;
-      var height       = this.scale.y * this.getLocalBounds().height;
+      var width        = maxX - minX;
+      var height       = maxY - minY;
       var velocity     = this.velocity;
       var acceleration = this.acceleration;
       var rotation     = this.transform.rotation;
