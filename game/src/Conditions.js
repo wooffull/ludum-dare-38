@@ -9,5 +9,5 @@ module.exports = {
   // Maxy
   mtalk: "0",
   
-  map: "map1"
+  map: "map0"
 };

@@ -35,7 +35,7 @@ Object.defineProperties(GameScene, {
   },
   
   FADE_RATE: {
-    value: 0.003
+    value: 0.002
   },
   
   PropertyTag: {
@@ -374,15 +374,17 @@ GameScene.prototype = Object.freeze(Object.create(Scene.prototype, {
   
   _handleConditions: {
     value: function () {
-      if (Conditions.map !== this.map) {
-        this._fadeOutMap(() => {
-          var newScene = new GameScene(this.canvas, this.PIXI);
-          newScene.setMap(Conditions.map);
-          newScene.loadMap();
-          this.change(newScene);
+      if (this.blackBox.alpha === 0) {
+        if (Conditions.map !== this.map) {
+          this._fadeOutMap(() => {
+            var newScene = new GameScene(this.canvas, this.PIXI);
+            newScene.setMap(Conditions.map);
+            newScene.loadMap();
+            this.change(newScene);
 
-          this.reset();
-        });
+            this.reset();
+          });
+        }
       }
     }
   },
@@ -421,7 +423,7 @@ GameScene.prototype = Object.freeze(Object.create(Scene.prototype, {
       var id = window.setInterval(
         () => {
           this.blackBox.alpha += GameScene.FADE_RATE;
-          this.blackBox.alpha *= 1.1;
+          this.blackBox.alpha *= 1.05;
           
           if (this.blackBox.alpha >= 1) {
             window.clearInterval(id);
