@@ -20,6 +20,8 @@ module.exports = {
   HOLE: "./assets/img/Hole.png",
   HOLE_COVER: "./assets/img/HoleCover.png",
   
+  BLACK_BOX: "./assets/img/BlackBox.png",
+  
   PLAYER: "./assets/img/Player.png",
   
   TEXT_BOX: "./assets/img/TextBox.png",

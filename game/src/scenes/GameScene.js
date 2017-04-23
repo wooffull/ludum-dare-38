@@ -17,6 +17,8 @@ var GameScene = function (canvas, PIXI) {
   this.autoEventBounds = [];
   
   this.PIXI = PIXI;
+  
+  this.blackBox = new PIXI.Sprite.fromImage(Assets.BLACK_BOX);
 };
 
 Object.defineProperties(GameScene, {
@@ -30,6 +32,10 @@ Object.defineProperties(GameScene, {
   */
   FRICTION: {
     value: 0.9
+  },
+  
+  FADE_RATE: {
+    value: 0.005
   },
   
   PropertyTag: {
@@ -81,6 +87,14 @@ GameScene.prototype = Object.freeze(Object.create(Scene.prototype, {
           this._stage.addChild(obj);
         }
       }
+      
+      if (this.blackBox.alpha > 0) {
+        this.blackBox.width = window.innerWidth;
+        this.blackBox.height = window.innerHeight;
+        this.blackBox.x = this.camera.position.x - window.innerWidth * 0.5;
+        this.blackBox.y = this.camera.position.y - window.innerHeight * 0.5;
+        this._stage.addChild(this.blackBox);
+      }
     }
   },
   
@@ -112,6 +126,8 @@ GameScene.prototype = Object.freeze(Object.create(Scene.prototype, {
           added.findReferences(all, this.PIXI);
         }
       }
+      
+      this._fadeInMap();
     }
   },
   
@@ -264,7 +280,6 @@ GameScene.prototype = Object.freeze(Object.create(Scene.prototype, {
       // Layer 5 for higher objects like text boxes
       this.addGameObject(textBox, 5);
       event.textBox = textBox;
-      this.player.movementLock = false;
       this.camera.follow(this.player);
     }
   },
@@ -284,7 +299,7 @@ GameScene.prototype = Object.freeze(Object.create(Scene.prototype, {
       textBox.x = event.obj.x;
       textBox.y = event.obj.y - 75;
       
-      this.player.movementLock = true;
+      this.player.movementLock++;
       this.player.acceleration.multiply(0);
       this.player.velocity.multiply(0);
       
@@ -299,6 +314,7 @@ GameScene.prototype = Object.freeze(Object.create(Scene.prototype, {
           let {condition, newValue} = set;
           Conditions[condition] = newValue;
         }
+        this.player.movementLock--;
         
         this.hideEventText(event);
       });
@@ -358,13 +374,66 @@ GameScene.prototype = Object.freeze(Object.create(Scene.prototype, {
   _handleConditions: {
     value: function () {
       if (Conditions.map !== this.map) {
-        var newScene = new GameScene(this.canvas, this.PIXI);
-        newScene.setMap(Conditions.map);
-        newScene.loadMap();
-        this.change(newScene);
-        
-        this.reset();
+        this._fadeOutMap(() => {
+          var newScene = new GameScene(this.canvas, this.PIXI);
+          newScene.setMap(Conditions.map);
+          newScene.loadMap();
+          this.change(newScene);
+
+          this.reset();
+        });
       }
+    }
+  },
+  
+  _fadeInMap: {
+    value: function (callback) {
+      this.blackBox.alpha = 1;
+      this.player.movementLock++;
+      
+      var id = window.setInterval(
+        () => {
+          this.blackBox.alpha -= GameScene.FADE_RATE;
+          this.blackBox.alpha *= 0.9;
+          
+          if (this.blackBox.alpha <= 0) {
+            window.clearInterval(id);
+            this.blackBox.alpha = 0;
+            this.player.movementLock--;
+            this._stage.removeChild(this.blackBox);
+            
+            if (callback) {
+              callback();
+            }
+          }
+        },
+        1
+      );
+    }
+  },
+  
+  _fadeOutMap: {
+    value: function (callback) {
+      this.blackBox.alpha = 0;
+      this.player.movementLock++;
+      
+      var id = window.setInterval(
+        () => {
+          this.blackBox.alpha += GameScene.FADE_RATE;
+          this.blackBox.alpha *= 1.1;
+          
+          if (this.blackBox.alpha >= 1) {
+            window.clearInterval(id);
+            this.blackBox.alpha = 1;
+            this.player.movementLock--;
+            
+            if (callback) {
+              callback();
+            }
+          }
+        },
+        1
+      );
     }
   }
 }));

@@ -8,6 +8,7 @@ var map    = require('./map');
 // Create game
 var canvas = document.querySelector("#game-canvas");
 var game   = wfl.create(canvas);
+game.renderer.backgroundColor = 0x000000;
 
 //game.debug = {vectors: true};
 

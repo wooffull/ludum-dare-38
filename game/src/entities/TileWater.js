@@ -73,12 +73,6 @@ TileWater.prototype = Object.freeze(Object.create(HexTile.prototype, {
       }
       */
     }
-  },
-  
-  canCollide: {
-    value: function (obj) {
-      return (obj instanceof Player);
-    }
   }
 }));
 

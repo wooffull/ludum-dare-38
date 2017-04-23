@@ -43,10 +43,11 @@ var Player = function () {
   this.maxSpeed        = Player.MAX_SPEED;
   this.maxAcceleration = Player.MAX_ACCELERATION;
   
-  this.movementLock = false;
+  this.movementLock = 0;
   
   this.mass = 10;
   this.restitution = 0.8;
+  this.friction = 1;
 };
 
 Object.defineProperties(Player, {
@@ -121,7 +122,7 @@ Player.prototype = Object.freeze(Object.create(PhysicsObject.prototype, {
   
   handleInput: {
     value: function (keyboard) {
-      if (this.movementLock) return;
+      if (this.movementLock > 0) return;
       
       var sprinting     = keyboard.isPressed(keyboard.SHIFT);
       var lastPressed   = keyboard.getKeyJustPressed();
