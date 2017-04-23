@@ -1,6 +1,7 @@
 "use strict";
 
 var $             = wfl.jquery;
+var geom = wfl.geom;
 var Scene = wfl.display.Scene;
 var map = require('../map');
 var Assets = require('../util/Assets.js');
@@ -214,6 +215,7 @@ GameScene.prototype = Object.freeze(Object.create(Scene.prototype, {
       // Layer 5 for higher objects like text boxes
       this.addGameObject(textBox, 5);
       event.textBox = textBox;
+      this.player.movementLock = false;
     }
   },
   
@@ -230,6 +232,10 @@ GameScene.prototype = Object.freeze(Object.create(Scene.prototype, {
       
       textBox.x = event.obj.x;
       textBox.y = event.obj.y - 50;
+      
+      this.player.movementLock = true;
+      this.player.acceleration.multiply(0);
+      this.player.velocity.multiply(0);
       
       // Layer 5 for higher objects like text boxes
       this.addGameObject(textBox, 5);
