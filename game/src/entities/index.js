@@ -11,6 +11,8 @@ var TileSand = require('./TileSand.js');
 var TileFree = require('./TileFree.js');
 var TileVoid = require('./TileVoid.js');
 
+var Title = require('./Title.js');
+
 var Hole = require('./Hole.js');
 var HoleCover = require('./HoleCover.js');
 
@@ -35,6 +37,8 @@ module.exports = {
   TileSand: TileSand,
   TileFree: TileFree,
   TileVoid: TileVoid,
+  
+  Title: Title,
   
   Hole: Hole,
   HoleCover: HoleCover,

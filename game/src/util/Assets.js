@@ -25,6 +25,10 @@ module.exports = {
   
   BLACK_BOX: "./assets/img/BlackBox.png",
   
+  TITLE0: "./assets/img/Title0.png",
+  TITLE1: "./assets/img/Title1.png",
+  TITLE2: "./assets/img/Title2.png",
+  
   PLAYER: "./assets/img/Player.png",
   PLAYER_L0: "./assets/img/PlayerL0.png",
   PLAYER_L1: "./assets/img/PlayerL1.png",

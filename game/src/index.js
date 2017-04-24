@@ -49,10 +49,8 @@ var onLoadMap = function (key, data) {
   
   if (loadCounter === Assets.maps.length) {
     // Load scene here
-    var gameScene = new scenes.GameScene(canvas, game.pixi);
+    var gameScene = new scenes.TitleScene(canvas, game.pixi);
     game.setScene(gameScene);
-    gameScene.setMap(Assets.maps[0].key);
-    gameScene.loadMap();
   }
 }
 

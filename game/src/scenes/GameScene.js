@@ -15,6 +15,8 @@ var GameScene = function (canvas, PIXI) {
   this.map = null;
   this.touchEventBounds = [];
   this.autoEventBounds = [];
+  this.voidTiles = [];
+  this.holeCovers = [];
   
   this.PIXI = PIXI;
   
@@ -126,6 +128,10 @@ GameScene.prototype = Object.freeze(Object.create(Scene.prototype, {
         if (added.findReferences) {
           added.findReferences(all, this.PIXI);
         }
+        
+        if (added instanceof entities.TileVoid) {
+          this.voidTiles.push(added);
+        }
       }
       
       this._fadeInMap();
@@ -194,7 +200,18 @@ GameScene.prototype = Object.freeze(Object.create(Scene.prototype, {
         if (Conditions[condition1] === expected) {
           for (let set of eventSets) {
             let {condition, newValue} = set;
-            Conditions[condition] = newValue;
+            
+            if (condition === "spawn" && newValue === "HoleCover")  {
+              var obj = ev.obj;
+              var e = new entities.HoleCover();
+              e.position.x = obj.x;
+              e.position.y = obj.y;
+              this.addGameObject(e, 1);
+              this.holeCovers.push(e);
+              
+            } else {
+              Conditions[condition] = newValue;
+            }
           }
           
           this.autoEventBounds.splice(this.autoEventBounds.indexOf(ev), 1);
@@ -368,6 +385,22 @@ GameScene.prototype = Object.freeze(Object.create(Scene.prototype, {
     value: function (gameObjects) {
       this.checkTouchEvents();
       
+      for (let cover of this.holeCovers) {
+        
+        for (let t of this.voidTiles) {
+          if (this.holeCovers.indexOf(cover) < 0) continue;
+          if (this.voidTiles.indexOf(t) < 0) continue;
+          
+          if (cover.checkNarrowPhaseCollision(t, {})) {
+            t.currentState.name = entities.HexTile.STATE.CLAIMING;
+            this.voidTiles.splice(this.voidTiles.indexOf(t), 1);
+            this.holeCovers.splice(this.holeCovers.indexOf(cover), 1);
+            cover.customData.retired = true;
+            t.solid = false;
+          }
+        }
+      }
+      
       Scene.prototype._handleCollisions.call(this, gameObjects);
     }
   },
@@ -382,6 +415,15 @@ GameScene.prototype = Object.freeze(Object.create(Scene.prototype, {
             newScene.loadMap();
             this.change(newScene);
 
+            this.reset();
+          });
+        }
+        
+        if (Conditions.gameover === "true") {
+          this._fadeOutMap(() => {
+            var GameOverScene = require('./GameOverScene');
+            var newScene = new GameOverScene(this.canvas, this.PIXI);
+            this.change(newScene);
             this.reset();
           });
         }
