@@ -22,6 +22,7 @@ var Hole = function () {
 
   this.solid = true;
   this.fixed = true;
+  this.allowOverlapEvents = true;
   
   this.holeCover = null;
   this.filled = false;
@@ -191,7 +192,7 @@ Hole.prototype = Object.freeze(Object.create(PhysicsObject.prototype, {
     }
   },
   
-  onCollide: {
+  onOverlap: {
     value: function (obj) {
       if (obj instanceof HoleCover) {
         var distSquared = geom.Vec2.subtract(obj.position, this.position)

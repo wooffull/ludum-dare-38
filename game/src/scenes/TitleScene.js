@@ -59,7 +59,7 @@ TitleScene.prototype = Object.freeze(Object.create(Scene.prototype, {
           this.reset();
         });
 
-        this.addGameObject(this.text, 5);
+        this.addGameObject(this.text, 6);
       }
     }
   },

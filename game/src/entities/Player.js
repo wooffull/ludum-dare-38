@@ -38,6 +38,24 @@ var Player = function () {
   this.stateRight.addFrame(this.frameIdle3);
   this.stateRight.addFrame(this.frameIdle4);
   this.addState(Player.STATE.RIGHT, this.stateRight);
+  
+  this.stateRunLeft = GameObject.createState();
+  this.frameRunLeft1 = GameObject.createFrame(this.myGraphic1, 18, verts);
+  this.frameRunLeft2 = GameObject.createFrame(this.myGraphic2, 18, verts);
+  this.frameRunLeft1.y -= 28;
+  this.frameRunLeft2.y -= 28;
+  this.stateRunLeft.addFrame(this.frameRunLeft1);
+  this.stateRunLeft.addFrame(this.frameRunLeft2);
+  this.addState(Player.STATE.RUN_LEFT, this.stateRunLeft);
+  
+  this.stateRunRight = GameObject.createState();
+  this.frameRunRight1 = GameObject.createFrame(this.myGraphic3, 18, verts);
+  this.frameRunRight2 = GameObject.createFrame(this.myGraphic4, 18, verts);
+  this.frameRunRight1.y -= 28;
+  this.frameRunRight2.y -= 28;
+  this.stateRunRight.addFrame(this.frameRunRight1);
+  this.stateRunRight.addFrame(this.frameRunRight2);
+  this.addState(Player.STATE.RUN_RIGHT, this.stateRunRight);
 
   // The top of the stack determines which direction the player faces
   this._walkDirectionStack = [];
@@ -48,35 +66,37 @@ var Player = function () {
   
   this.movementLock = 0;
   
-  this.mass = 10;
+  this.mass = 400;
   this.restitution = 0.8;
   this.friction = 1;
 };
 
 Object.defineProperties(Player, {
   MAX_SPEED : {
-    value : 3
+    value : 4.75
   },
   
   MAX_ACCELERATION : {
-    value : .55
+    value : 5
   },
   
   SPRINT_MAX_SPEED : {
-    value : 6.5
+    value : 8.75
   },
   
   SPRINT_BOOST_ACCELERATION : {
-    value : .1
+    value : 2.225
   },
 
   BOOST_ACCELERATION : {
-    value : .05
+    value : 1.25
   },
   STATE : {
     value : {
       LEFT : "LEFT",
-      RIGHT : "RIGHT"
+      RIGHT : "RIGHT",
+      RUN_LEFT : "RUN_LEFT",
+      RUN_RIGHT : "RUN_RIGHT"
     }
   }
 });
@@ -85,7 +105,7 @@ Player.prototype = Object.freeze(Object.create(PhysicsObject.prototype, {
   update : {
     value : function (dt) {
       PhysicsObject.prototype.update.call(this, dt);
-      
+      this.velocity.multiply(0.8);
       // Handle state
       /*
       var stateName = this.currentState.name;
@@ -166,9 +186,31 @@ Player.prototype = Object.freeze(Object.create(PhysicsObject.prototype, {
       if (sprinting) {
         boost = Player.SPRINT_BOOST_ACCELERATION;
         this.maxSpeed = Player.SPRINT_MAX_SPEED;
+
+        if (leftPriority > rightPriority) {
+          this.setState(Player.STATE.RUN_LEFT);
+        } else if (leftPriority < rightPriority) {
+          this.setState(Player.STATE.RUN_RIGHT);
+        }
       } else {
         boost = Player.BOOST_ACCELERATION;
         this.maxSpeed = Player.MAX_SPEED;
+        
+        if (leftPriority > rightPriority) {
+          this.setState(Player.STATE.LEFT);
+        } else if (leftPriority < rightPriority) {
+          this.setState(Player.STATE.RIGHT);
+        } else {
+          var stateName = this.currentState.name;
+
+          switch (stateName) {
+            case Player.STATE.RUN_LEFT:
+              this.setState(Player.STATE.LEFT);
+            break;
+            case Player.STATE.RUN_RIGHT:
+              this.setState(Player.STATE.RIGHT);
+          }
+        }
       }
 
       // Move the player in the appropriate direction
@@ -178,8 +220,7 @@ Player.prototype = Object.freeze(Object.create(PhysicsObject.prototype, {
           boost * this.mass
         );
 
-        this.addForce(movementForce);
-        this.setState(Player.STATE.LEFT);
+        this.addImpulse(movementForce);
       } 
       if (rightPriority > leftPriority) {
         var movementForce = new geom.Vec2(1, 0);
@@ -187,8 +228,7 @@ Player.prototype = Object.freeze(Object.create(PhysicsObject.prototype, {
           boost * this.mass
         );
 
-        this.addForce(movementForce);
-        this.setState(Player.STATE.RIGHT);
+        this.addImpulse(movementForce);
       }
       if (upPriority > downPriority) {
         var movementForce = new geom.Vec2(0, -1);
@@ -196,7 +236,7 @@ Player.prototype = Object.freeze(Object.create(PhysicsObject.prototype, {
           boost * this.mass
         );
 
-        this.addForce(movementForce);
+        this.addImpulse(movementForce);
       }
       if (downPriority > upPriority) {
         var movementForce = new geom.Vec2(0, 1);
@@ -204,8 +244,37 @@ Player.prototype = Object.freeze(Object.create(PhysicsObject.prototype, {
           boost * this.mass
         );
 
-        this.addForce(movementForce);
+        this.addImpulse(movementForce);
       }
+    }
+  },
+  
+  cacheCalculations: {
+    value: function () {
+      PhysicsObject.prototype.cacheCalculations.call(this);
+      
+      var verts = this.vertices;
+      var minX =  Infinity;
+      var maxX = -Infinity;
+      var minY =  Infinity;
+      var maxY = -Infinity;
+      
+      for (let v of verts) {
+        if (v.x < minX) minX = v.x;
+        if (v.x > maxX) maxX = v.x;
+        if (v.y < minY) minY = v.y;
+        if (v.y > maxY) maxY = v.y;
+      }
+      
+      var width  = maxX - minX;
+      var height = maxY - minY;
+      
+      this.calculationCache.width  = width;
+      this.calculationCache.height = height;
+      this.calculationCache.aabbWidth = 64;
+      this.calculationCache.aabbHeight = 64;
+      this.calculationCache.aabbHalfWidth = 32;
+      this.calculationCache.aabbHalfHeight = 32;
     }
   }
 }));

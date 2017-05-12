@@ -16,10 +16,6 @@
         "name": "TileWater"
       },
       {
-        "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
-        "name": "TileWater"
-      },
-      {
         "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileGrass.png",
         "name": "TileGrass"
       },
@@ -50,6 +46,10 @@
       {
         "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileSand.png",
         "name": "TileSand"
+      },
+      {
+        "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileGreenBorder.png",
+        "name": "TileGreenBorder"
       }
     ],
     "gameObjects": [
@@ -59,249 +59,8 @@
           "name": "TileWater"
         },
         "layer": "layer0",
-        "props": [],
         "rotation": 0,
-        "x": 231,
-        "y": -1386
-      },
-      {
-        "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
-          "name": "TileWater"
-        },
-        "layer": "layer0",
-        "props": [],
-        "rotation": 0,
-        "x": -273,
-        "y": 486
-      },
-      {
-        "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
-          "name": "TileWater"
-        },
-        "layer": "layer0",
-        "props": [],
-        "rotation": 0,
-        "x": 1365,
-        "y": -306
-      },
-      {
-        "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
-          "name": "TileWater"
-        },
-        "layer": "layer0",
-        "props": [],
-        "rotation": 0,
-        "x": 735,
-        "y": 342
-      },
-      {
-        "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
-          "name": "TileWater"
-        },
-        "layer": "layer0",
-        "props": [],
-        "rotation": 0,
-        "x": 861,
-        "y": 558
-      },
-      {
-        "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
-          "name": "TileWater"
-        },
-        "layer": "layer0",
-        "props": [],
-        "rotation": 0,
-        "x": 483,
-        "y": -1674
-      },
-      {
-        "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
-          "name": "TileWater"
-        },
-        "layer": "layer0",
-        "props": [],
-        "rotation": 0,
-        "x": -651,
-        "y": 126
-      },
-      {
-        "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
-          "name": "TileWater"
-        },
-        "layer": "layer0",
-        "props": [],
-        "rotation": 0,
-        "x": 987,
-        "y": -666
-      },
-      {
-        "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
-          "name": "TileWater"
-        },
-        "layer": "layer0",
-        "props": [],
-        "rotation": 0,
-        "x": -525,
-        "y": -810
-      },
-      {
-        "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
-          "name": "TileWater"
-        },
-        "layer": "layer0",
-        "props": [],
-        "rotation": 0,
-        "x": -273,
-        "y": -1098
-      },
-      {
-        "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
-          "name": "TileWater"
-        },
-        "layer": "layer0",
-        "props": [],
-        "rotation": 0,
-        "x": 1365,
-        "y": -738
-      },
-      {
-        "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
-          "name": "TileWater"
-        },
-        "layer": "layer0",
-        "props": [],
-        "rotation": 0,
-        "x": 1365,
-        "y": -1170
-      },
-      {
-        "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
-          "name": "TileWater"
-        },
-        "layer": "layer0",
-        "props": [],
-        "rotation": 0,
-        "x": 1239,
-        "y": 198
-      },
-      {
-        "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
-          "name": "TileWater"
-        },
-        "layer": "layer0",
-        "props": [],
-        "rotation": 0,
-        "x": 1239,
-        "y": 342
-      },
-      {
-        "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
-          "name": "TileWater"
-        },
-        "layer": "layer0",
-        "props": [],
-        "rotation": 0,
-        "x": -273,
-        "y": -90
-      },
-      {
-        "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
-          "name": "TileWater"
-        },
-        "layer": "layer0",
-        "rotation": 0,
-        "x": -21,
-        "y": 342
-      },
-      {
-        "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
-          "name": "TileWater"
-        },
-        "layer": "layer0",
-        "props": [],
-        "rotation": 0,
-        "x": -903,
-        "y": -882
-      },
-      {
-        "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
-          "name": "TileWater"
-        },
-        "layer": "layer0",
-        "props": [],
-        "rotation": 0,
-        "x": 483,
-        "y": -1530
-      },
-      {
-        "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
-          "name": "TileWater"
-        },
-        "layer": "layer0",
-        "props": [],
-        "rotation": 0,
-        "x": -21,
-        "y": -1242
-      },
-      {
-        "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
-          "name": "TileWater"
-        },
-        "layer": "layer0",
-        "props": [],
-        "rotation": 0,
-        "x": 1113,
-        "y": -1458
-      },
-      {
-        "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
-          "name": "TileWater"
-        },
-        "layer": "layer0",
-        "props": [],
-        "rotation": 0,
-        "x": -903,
-        "y": -162
-      },
-      {
-        "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
-          "name": "TileWater"
-        },
-        "layer": "layer0",
-        "rotation": 0,
-        "x": -525,
-        "y": 198
-      },
-      {
-        "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
-          "name": "TileWater"
-        },
-        "layer": "layer0",
-        "props": [],
-        "rotation": 0,
-        "x": 861,
+        "x": -399,
         "y": 270
       },
       {
@@ -312,63 +71,8 @@
         "layer": "layer0",
         "props": [],
         "rotation": 0,
-        "x": -147,
-        "y": -1026
-      },
-      {
-        "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
-          "name": "TileWater"
-        },
-        "layer": "layer0",
-        "props": [],
-        "rotation": 0,
-        "x": -651,
-        "y": -594
-      },
-      {
-        "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
-          "name": "TileWater"
-        },
-        "layer": "layer0",
-        "props": [],
-        "rotation": 0,
-        "x": -399,
-        "y": 414
-      },
-      {
-        "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
-          "name": "TileWater"
-        },
-        "layer": "layer0",
-        "props": [],
-        "rotation": 0,
-        "x": 1113,
-        "y": -1170
-      },
-      {
-        "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
-          "name": "TileWater"
-        },
-        "layer": "layer0",
-        "props": [],
-        "rotation": 0,
-        "x": 1113,
-        "y": -882
-      },
-      {
-        "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
-          "name": "TileWater"
-        },
-        "layer": "layer0",
-        "props": [],
-        "rotation": 0,
-        "x": -525,
-        "y": -378
+        "x": 1365,
+        "y": -1602
       },
       {
         "entity": {
@@ -389,214 +93,7 @@
         "layer": "layer0",
         "props": [],
         "rotation": 0,
-        "x": 357,
-        "y": -1458
-      },
-      {
-        "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
-          "name": "TileWater"
-        },
-        "layer": "layer0",
-        "props": [],
-        "rotation": 0,
-        "x": -777,
-        "y": -90
-      },
-      {
-        "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
-          "name": "TileWater"
-        },
-        "layer": "layer0",
-        "props": [],
-        "rotation": 0,
-        "x": 1365,
-        "y": -450
-      },
-      {
-        "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
-          "name": "TileWater"
-        },
-        "layer": "layer0",
-        "props": [],
-        "rotation": 0,
-        "x": 105,
-        "y": 990
-      },
-      {
-        "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
-          "name": "TileWater"
-        },
-        "layer": "layer0",
-        "props": [],
-        "rotation": 0,
-        "x": -651,
-        "y": -1026
-      },
-      {
-        "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
-          "name": "TileWater"
-        },
-        "layer": "layer0",
-        "props": [],
-        "rotation": 0,
-        "x": 1365,
-        "y": -882
-      },
-      {
-        "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
-          "name": "TileWater"
-        },
-        "layer": "layer0",
-        "props": [],
-        "rotation": 0,
-        "x": 1239,
-        "y": -666
-      },
-      {
-        "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
-          "name": "TileWater"
-        },
-        "layer": "layer0",
-        "props": [],
-        "rotation": 0,
-        "x": 105,
-        "y": -1458
-      },
-      {
-        "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
-          "name": "TileWater"
-        },
-        "layer": "layer0",
-        "props": [],
-        "rotation": 0,
-        "x": 231,
-        "y": 918
-      },
-      {
-        "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
-          "name": "TileWater"
-        },
-        "layer": "layer0",
-        "props": [],
-        "rotation": 0,
-        "x": -651,
-        "y": -738
-      },
-      {
-        "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
-          "name": "TileWater"
-        },
-        "layer": "layer0",
-        "props": [],
-        "rotation": 0,
-        "x": 1239,
-        "y": -1098
-      },
-      {
-        "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
-          "name": "TileWater"
-        },
-        "layer": "layer0",
-        "props": [],
-        "rotation": 0,
-        "x": -399,
-        "y": -882
-      },
-      {
-        "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
-          "name": "TileWater"
-        },
-        "layer": "layer0",
-        "props": [],
-        "rotation": 0,
-        "x": 987,
-        "y": -1098
-      },
-      {
-        "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
-          "name": "TileWater"
-        },
-        "layer": "layer0",
-        "props": [],
-        "rotation": 0,
-        "x": 987,
-        "y": -378
-      },
-      {
-        "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
-          "name": "TileWater"
-        },
-        "layer": "layer0",
-        "props": [],
-        "rotation": 0,
-        "x": -777,
-        "y": 54
-      },
-      {
-        "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
-          "name": "TileWater"
-        },
-        "layer": "layer0",
-        "rotation": 0,
-        "x": -399,
-        "y": 126
-      },
-      {
-        "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
-          "name": "TileWater"
-        },
-        "layer": "layer0",
-        "rotation": 0,
-        "x": -399,
-        "y": -306
-      },
-      {
-        "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
-          "name": "TileWater"
-        },
-        "layer": "layer0",
-        "props": [],
-        "rotation": 0,
-        "x": -399,
-        "y": -738
-      },
-      {
-        "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
-          "name": "TileWater"
-        },
-        "layer": "layer0",
-        "props": [],
-        "rotation": 0,
-        "x": -273,
-        "y": -954
-      },
-      {
-        "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
-          "name": "TileWater"
-        },
-        "layer": "layer0",
-        "props": [],
-        "rotation": 0,
-        "x": -777,
+        "x": 1491,
         "y": -234
       },
       {
@@ -607,82 +104,7 @@
         "layer": "layer0",
         "props": [],
         "rotation": 0,
-        "x": 1239,
-        "y": 54
-      },
-      {
-        "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
-          "name": "TileWater"
-        },
-        "layer": "layer0",
-        "rotation": 0,
-        "x": -525,
-        "y": -234
-      },
-      {
-        "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
-          "name": "TileWater"
-        },
-        "layer": "layer0",
-        "props": [],
-        "rotation": 0,
-        "x": -147,
-        "y": -162
-      },
-      {
-        "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
-          "name": "TileWater"
-        },
-        "layer": "layer0",
-        "props": [],
-        "rotation": 0,
-        "x": -525,
-        "y": 486
-      },
-      {
-        "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
-          "name": "TileWater"
-        },
-        "layer": "layer0",
-        "props": [],
-        "rotation": 0,
-        "x": -1029,
-        "y": -90
-      },
-      {
-        "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
-          "name": "TileWater"
-        },
-        "layer": "layer0",
-        "rotation": 0,
-        "x": -147,
-        "y": -306
-      },
-      {
-        "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
-          "name": "TileWater"
-        },
-        "layer": "layer0",
-        "props": [],
-        "rotation": 0,
-        "x": 735,
-        "y": 486
-      },
-      {
-        "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
-          "name": "TileWater"
-        },
-        "layer": "layer0",
-        "props": [],
-        "rotation": 0,
-        "x": 861,
+        "x": 1617,
         "y": -1314
       },
       {
@@ -693,8 +115,8 @@
         "layer": "layer0",
         "props": [],
         "rotation": 0,
-        "x": -399,
-        "y": -450
+        "x": 357,
+        "y": -1746
       },
       {
         "entity": {
@@ -704,8 +126,8 @@
         "layer": "layer0",
         "props": [],
         "rotation": 0,
-        "x": -777,
-        "y": -954
+        "x": -1029,
+        "y": -1242
       },
       {
         "entity": {
@@ -715,8 +137,8 @@
         "layer": "layer0",
         "props": [],
         "rotation": 0,
-        "x": -147,
-        "y": -594
+        "x": -21,
+        "y": -234
       },
       {
         "entity": {
@@ -726,7 +148,51 @@
         "layer": "layer0",
         "props": [],
         "rotation": 0,
-        "x": 609,
+        "x": 105,
+        "y": -1602
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": 1113,
+        "y": -738
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": 1869,
+        "y": -306
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": 1365,
+        "y": 126
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": 1365,
         "y": 702
       },
       {
@@ -737,7 +203,172 @@
         "layer": "layer0",
         "props": [],
         "rotation": 0,
-        "x": -273,
+        "x": 1743,
+        "y": -522
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": -399,
+        "y": -882
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": -21,
+        "y": -810
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": 987,
+        "y": 774
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": 1995,
+        "y": -954
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": 609,
+        "y": 414
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": 105,
+        "y": -1746
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": 987,
+        "y": 630
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": -147,
+        "y": -1026
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": 231,
+        "y": 630
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": -21,
+        "y": -666
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": -1029,
+        "y": -522
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": 1617,
+        "y": 414
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": 1995,
+        "y": -234
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": 1869,
+        "y": -738
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": 1239,
         "y": -522
       },
       {
@@ -749,17 +380,6 @@
         "props": [],
         "rotation": 0,
         "x": 987,
-        "y": -954
-      },
-      {
-        "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
-          "name": "TileWater"
-        },
-        "layer": "layer0",
-        "props": [],
-        "rotation": 0,
-        "x": -1029,
         "y": -378
       },
       {
@@ -770,18 +390,8 @@
         "layer": "layer0",
         "props": [],
         "rotation": 0,
-        "x": -273,
-        "y": -666
-      },
-      {
-        "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
-          "name": "TileWater"
-        },
-        "layer": "layer0",
-        "rotation": 0,
-        "x": -21,
-        "y": 198
+        "x": 231,
+        "y": -1962
       },
       {
         "entity": {
@@ -791,8 +401,8 @@
         "layer": "layer0",
         "props": [],
         "rotation": 0,
-        "x": 609,
-        "y": -1602
+        "x": -147,
+        "y": -1314
       },
       {
         "entity": {
@@ -803,7 +413,18 @@
         "props": [],
         "rotation": 0,
         "x": -399,
-        "y": 702
+        "y": -1314
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": 1491,
+        "y": -1386
       },
       {
         "entity": {
@@ -814,7 +435,7 @@
         "props": [],
         "rotation": 0,
         "x": 357,
-        "y": -1602
+        "y": 1134
       },
       {
         "entity": {
@@ -824,8 +445,63 @@
         "layer": "layer0",
         "props": [],
         "rotation": 0,
-        "x": -1029,
-        "y": 54
+        "x": -903,
+        "y": -738
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": 231,
+        "y": 198
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": 1617,
+        "y": 558
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": 357,
+        "y": 702
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": 1869,
+        "y": 126
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": 357,
+        "y": 270
       },
       {
         "entity": {
@@ -834,8 +510,8 @@
         },
         "layer": "layer0",
         "rotation": 0,
-        "x": -399,
-        "y": -18
+        "x": -273,
+        "y": 198
       },
       {
         "entity": {
@@ -856,40 +532,7 @@
         "layer": "layer0",
         "props": [],
         "rotation": 0,
-        "x": 609,
-        "y": 414
-      },
-      {
-        "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
-          "name": "TileWater"
-        },
-        "layer": "layer0",
-        "props": [],
-        "rotation": 0,
-        "x": 231,
-        "y": 774
-      },
-      {
-        "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
-          "name": "TileWater"
-        },
-        "layer": "layer0",
-        "props": [],
-        "rotation": 0,
-        "x": 1365,
-        "y": -594
-      },
-      {
-        "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
-          "name": "TileWater"
-        },
-        "layer": "layer0",
-        "props": [],
-        "rotation": 0,
-        "x": -777,
+        "x": -1029,
         "y": -666
       },
       {
@@ -900,8 +543,8 @@
         "layer": "layer0",
         "props": [],
         "rotation": 0,
-        "x": 1239,
-        "y": -522
+        "x": 357,
+        "y": -1314
       },
       {
         "entity": {
@@ -912,17 +555,6 @@
         "props": [],
         "rotation": 0,
         "x": 1365,
-        "y": 414
-      },
-      {
-        "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
-          "name": "TileWater"
-        },
-        "layer": "layer0",
-        "props": [],
-        "rotation": 0,
-        "x": 1113,
         "y": -738
       },
       {
@@ -934,6 +566,50 @@
         "props": [],
         "rotation": 0,
         "x": 987,
+        "y": 198
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": 483,
+        "y": -1530
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": -273,
+        "y": -810
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": 357,
+        "y": 846
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": 1239,
         "y": -234
       },
       {
@@ -944,8 +620,8 @@
         "layer": "layer0",
         "props": [],
         "rotation": 0,
-        "x": -399,
-        "y": -594
+        "x": 1239,
+        "y": -954
       },
       {
         "entity": {
@@ -955,8 +631,8 @@
         "layer": "layer0",
         "props": [],
         "rotation": 0,
-        "x": -21,
-        "y": 486
+        "x": 1869,
+        "y": -18
       },
       {
         "entity": {
@@ -966,8 +642,8 @@
         "layer": "layer0",
         "props": [],
         "rotation": 0,
-        "x": 735,
-        "y": -1674
+        "x": 231,
+        "y": -1530
       },
       {
         "entity": {
@@ -975,8 +651,42 @@
           "name": "TileWater"
         },
         "layer": "layer0",
+        "props": [],
         "rotation": 0,
-        "x": -399,
+        "x": 357,
+        "y": -1458
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": 1743,
+        "y": -1098
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": 1617,
+        "y": -306
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": 1113,
         "y": 270
       },
       {
@@ -987,8 +697,523 @@
         "layer": "layer0",
         "props": [],
         "rotation": 0,
+        "x": 1995,
+        "y": -378
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": -525,
+        "y": -1530
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": -1029,
+        "y": -1098
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": 1239,
+        "y": 774
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": 483,
+        "y": -1818
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": 861,
+        "y": 414
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": 105,
+        "y": -18
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": -651,
+        "y": -882
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": 483,
+        "y": 1206
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
         "x": 987,
-        "y": 486
+        "y": -522
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": 987,
+        "y": -234
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": 1365,
+        "y": 414
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": -903,
+        "y": -1170
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": 105,
+        "y": -1458
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": 987,
+        "y": -1242
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": -525,
+        "y": -666
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": 861,
+        "y": -1746
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": 609,
+        "y": 702
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": -399,
+        "y": 702
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": -273,
+        "y": -1386
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": 609,
+        "y": 1134
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": 1743,
+        "y": -810
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": 483,
+        "y": -1674
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": -903,
+        "y": -18
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": 1113,
+        "y": -1170
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": -903,
+        "y": -306
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": -399,
+        "y": -1602
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": -21,
+        "y": -1386
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": 1491,
+        "y": 54
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": 735,
+        "y": 54
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": 483,
+        "y": 342
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": 357,
+        "y": 990
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": 1995,
+        "y": -1098
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "rotation": 0,
+        "x": -399,
+        "y": 126
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": 1239,
+        "y": 630
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": 1239,
+        "y": -1098
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "rotation": 0,
+        "x": -399,
+        "y": -162
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": 1869,
+        "y": 270
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": 1743,
+        "y": -666
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": -651,
+        "y": -162
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": 1743,
+        "y": -90
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": 1995,
+        "y": -90
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": 1239,
+        "y": -1530
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": 357,
+        "y": 558
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": -399,
+        "y": 558
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": 1239,
+        "y": 198
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": 1239,
+        "y": -90
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": 1869,
+        "y": -1314
       },
       {
         "entity": {
@@ -1007,30 +1232,9 @@
           "name": "TileWater"
         },
         "layer": "layer0",
-        "rotation": 0,
-        "x": -273,
-        "y": -234
-      },
-      {
-        "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
-          "name": "TileWater"
-        },
-        "layer": "layer0",
         "props": [],
         "rotation": 0,
-        "x": 735,
-        "y": -1386
-      },
-      {
-        "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
-          "name": "TileWater"
-        },
-        "layer": "layer0",
-        "props": [],
-        "rotation": 0,
-        "x": 861,
+        "x": 1365,
         "y": -18
       },
       {
@@ -1041,8 +1245,8 @@
         "layer": "layer0",
         "props": [],
         "rotation": 0,
-        "x": -903,
-        "y": -450
+        "x": -21,
+        "y": -954
       },
       {
         "entity": {
@@ -1051,9 +1255,30 @@
         },
         "layer": "layer0",
         "props": [],
+        "rotation": 0,
+        "x": 1743,
+        "y": 198
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": -651,
+        "y": 270
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
         "rotation": 0,
         "x": -21,
-        "y": 774
+        "y": 198
       },
       {
         "entity": {
@@ -1063,7 +1288,83 @@
         "layer": "layer0",
         "props": [],
         "rotation": 0,
-        "x": 609,
+        "x": 1995,
+        "y": -522
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "rotation": 0,
+        "x": -147,
+        "y": 414
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": 357,
+        "y": -1602
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": 1113,
+        "y": -1314
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": 1491,
+        "y": -1098
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": -273,
+        "y": -522
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": -147,
+        "y": -738
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": 1113,
         "y": -1746
       },
       {
@@ -1074,7 +1375,51 @@
         "layer": "layer0",
         "props": [],
         "rotation": 0,
+        "x": -273,
+        "y": -954
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": 1617,
+        "y": -1458
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": -399,
+        "y": -738
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
         "x": 987,
+        "y": -954
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": 1743,
         "y": 342
       },
       {
@@ -1085,7 +1430,84 @@
         "layer": "layer0",
         "props": [],
         "rotation": 0,
-        "x": -1029,
+        "x": 1617,
+        "y": 270
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": 1995,
+        "y": 198
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": -525,
+        "y": -1242
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": 105,
+        "y": 414
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": 861,
+        "y": 270
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": 1239,
+        "y": -378
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": 1113,
+        "y": 702
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": -777,
         "y": -666
       },
       {
@@ -1097,17 +1519,6 @@
         "props": [],
         "rotation": 0,
         "x": -651,
-        "y": 414
-      },
-      {
-        "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
-          "name": "TileWater"
-        },
-        "layer": "layer0",
-        "props": [],
-        "rotation": 0,
-        "x": -147,
         "y": 126
       },
       {
@@ -1118,8 +1529,129 @@
         "layer": "layer0",
         "props": [],
         "rotation": 0,
-        "x": -1029,
-        "y": -810
+        "x": 1113,
+        "y": -450
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": 1869,
+        "y": -450
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": -777,
+        "y": -90
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": 357,
+        "y": -2034
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": 861,
+        "y": 846
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": -651,
+        "y": -738
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": -651,
+        "y": -306
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": 1869,
+        "y": -882
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": 105,
+        "y": 126
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": 1113,
+        "y": -1458
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": 231,
+        "y": 54
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": 1239,
+        "y": -1242
       },
       {
         "entity": {
@@ -1129,7 +1661,51 @@
         "layer": "layer0",
         "rotation": 0,
         "x": -525,
-        "y": -90
+        "y": 54
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": 231,
+        "y": 486
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": -651,
+        "y": -594
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": 1995,
+        "y": -1242
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": -273,
+        "y": -1674
       },
       {
         "entity": {
@@ -1150,8 +1726,85 @@
         "layer": "layer0",
         "props": [],
         "rotation": 0,
-        "x": 1239,
-        "y": -1242
+        "x": 735,
+        "y": 198
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": 1113,
+        "y": 558
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": -273,
+        "y": -90
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": 609,
+        "y": -2034
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": 735,
+        "y": -1674
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": 735,
+        "y": 486
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": -273,
+        "y": 774
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": 1743,
+        "y": -954
       },
       {
         "entity": {
@@ -1162,7 +1815,29 @@
         "props": [],
         "rotation": 0,
         "x": -21,
-        "y": 54
+        "y": -1674
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": 1617,
+        "y": -18
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": 231,
+        "y": -1674
       },
       {
         "entity": {
@@ -1173,7 +1848,631 @@
         "props": [],
         "rotation": 0,
         "x": -777,
+        "y": 54
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": -147,
+        "y": -1458
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": 1491,
+        "y": 630
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": 1113,
+        "y": -162
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": 231,
+        "y": -1386
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": -903,
+        "y": -1026
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": 861,
+        "y": -1458
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": 735,
+        "y": 918
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": 609,
+        "y": 270
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": 1113,
+        "y": -1602
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": 861,
+        "y": -1602
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": -399,
+        "y": -1170
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": 987,
+        "y": -1818
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": -525,
+        "y": -954
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": 987,
+        "y": -90
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": 1113,
+        "y": -306
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": 105,
+        "y": 990
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": 1491,
+        "y": -810
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": -21,
+        "y": -1242
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": 1491,
+        "y": -522
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": 1113,
+        "y": -18
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": -1029,
+        "y": 54
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": 105,
+        "y": 846
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": 231,
+        "y": 774
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": 105,
+        "y": -1890
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": -147,
+        "y": -450
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": 1491,
+        "y": -954
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": -651,
+        "y": 558
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": -777,
+        "y": -954
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": 1869,
+        "y": -594
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": -147,
+        "y": -18
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": -903,
+        "y": -1314
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": 483,
+        "y": 630
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": 609,
+        "y": -1458
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "rotation": 0,
+        "x": -525,
+        "y": -234
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": 1617,
+        "y": -162
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": 987,
+        "y": 54
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": -21,
+        "y": 630
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": -1029,
+        "y": -378
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": 987,
+        "y": 918
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": -399,
+        "y": -1026
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": 1617,
+        "y": -738
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": 735,
+        "y": -1530
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": -147,
+        "y": -1170
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": 735,
         "y": 342
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": -777,
+        "y": 198
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": -273,
+        "y": -1530
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": 861,
+        "y": 990
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "rotation": 0,
+        "x": -273,
+        "y": 342
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "rotation": 0,
+        "x": -147,
+        "y": 270
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": 1995,
+        "y": -810
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": -399,
+        "y": -450
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": 231,
+        "y": 918
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": 1365,
+        "y": -450
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": -525,
+        "y": -1386
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": -651,
+        "y": 414
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": 1743,
+        "y": -1386
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": -399,
+        "y": 414
       },
       {
         "entity": {
@@ -1194,19 +2493,8 @@
         "layer": "layer0",
         "props": [],
         "rotation": 0,
-        "x": 105,
-        "y": -1314
-      },
-      {
-        "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
-          "name": "TileWater"
-        },
-        "layer": "layer0",
-        "props": [],
-        "rotation": 0,
         "x": -21,
-        "y": 630
+        "y": 918
       },
       {
         "entity": {
@@ -1214,76 +2502,9 @@
           "name": "TileWater"
         },
         "layer": "layer0",
-        "props": [],
         "rotation": 0,
-        "x": 1365,
-        "y": -1314
-      },
-      {
-        "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
-          "name": "TileWater"
-        },
-        "layer": "layer0",
-        "props": [],
-        "rotation": 0,
-        "x": 357,
-        "y": -1314
-      },
-      {
-        "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
-          "name": "TileWater"
-        },
-        "layer": "layer0",
-        "props": [],
-        "rotation": 0,
-        "x": 1239,
-        "y": -954
-      },
-      {
-        "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
-          "name": "TileWater"
-        },
-        "layer": "layer0",
-        "props": [],
-        "rotation": 0,
-        "x": -903,
-        "y": -738
-      },
-      {
-        "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
-          "name": "TileWater"
-        },
-        "layer": "layer0",
-        "props": [],
-        "rotation": 0,
-        "x": 609,
-        "y": 558
-      },
-      {
-        "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
-          "name": "TileWater"
-        },
-        "layer": "layer0",
-        "props": [],
-        "rotation": 0,
-        "x": 609,
-        "y": 846
-      },
-      {
-        "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
-          "name": "TileWater"
-        },
-        "layer": "layer0",
-        "props": [],
-        "rotation": 0,
-        "x": 1239,
-        "y": -234
+        "x": -525,
+        "y": -90
       },
       {
         "entity": {
@@ -1294,7 +2515,7 @@
         "props": [],
         "rotation": 0,
         "x": 861,
-        "y": 702
+        "y": -1890
       },
       {
         "entity": {
@@ -1304,8 +2525,8 @@
         "layer": "layer0",
         "props": [],
         "rotation": 0,
-        "x": -777,
-        "y": 198
+        "x": -21,
+        "y": 486
       },
       {
         "entity": {
@@ -1315,18 +2536,7 @@
         "layer": "layer0",
         "props": [],
         "rotation": 0,
-        "x": 1365,
-        "y": -18
-      },
-      {
-        "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
-          "name": "TileWater"
-        },
-        "layer": "layer0",
-        "props": [],
-        "rotation": 0,
-        "x": 357,
+        "x": 861,
         "y": 558
       },
       {
@@ -1337,7 +2547,7 @@
         "layer": "layer0",
         "props": [],
         "rotation": 0,
-        "x": -903,
+        "x": -399,
         "y": -594
       },
       {
@@ -1346,85 +2556,10 @@
           "name": "TileWater"
         },
         "layer": "layer0",
+        "props": [],
         "rotation": 0,
-        "x": -21,
+        "x": 1743,
         "y": -234
-      },
-      {
-        "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
-          "name": "TileWater"
-        },
-        "layer": "layer0",
-        "rotation": 0,
-        "x": -147,
-        "y": 414
-      },
-      {
-        "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
-          "name": "TileWater"
-        },
-        "layer": "layer0",
-        "props": [],
-        "rotation": 0,
-        "x": 1113,
-        "y": -1026
-      },
-      {
-        "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
-          "name": "TileWater"
-        },
-        "layer": "layer0",
-        "props": [],
-        "rotation": 0,
-        "x": -21,
-        "y": -1386
-      },
-      {
-        "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
-          "name": "TileWater"
-        },
-        "layer": "layer0",
-        "props": [],
-        "rotation": 0,
-        "x": 987,
-        "y": -1530
-      },
-      {
-        "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
-          "name": "TileWater"
-        },
-        "layer": "layer0",
-        "props": [],
-        "rotation": 0,
-        "x": 1113,
-        "y": -162
-      },
-      {
-        "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
-          "name": "TileWater"
-        },
-        "layer": "layer0",
-        "props": [],
-        "rotation": 0,
-        "x": 1113,
-        "y": 414
-      },
-      {
-        "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
-          "name": "TileWater"
-        },
-        "layer": "layer0",
-        "props": [],
-        "rotation": 0,
-        "x": 1365,
-        "y": -1026
       },
       {
         "entity": {
@@ -1435,7 +2570,193 @@
         "props": [],
         "rotation": 0,
         "x": 483,
-        "y": 918
+        "y": 774
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": 861,
+        "y": 126
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": -651,
+        "y": -18
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": -525,
+        "y": 342
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": -777,
+        "y": 486
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": 1869,
+        "y": -1170
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": -903,
+        "y": -162
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": 1365,
+        "y": 558
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": -1029,
+        "y": -234
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": -21,
+        "y": 54
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": 735,
+        "y": -1818
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": 1365,
+        "y": -882
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": 861,
+        "y": -1170
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": 105,
+        "y": -1170
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": -903,
+        "y": 126
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": -21,
+        "y": -378
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": 1365,
+        "y": -594
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "rotation": 0,
+        "x": -147,
+        "y": -306
       },
       {
         "entity": {
@@ -1456,8 +2777,8 @@
         "layer": "layer0",
         "props": [],
         "rotation": 0,
-        "x": 1113,
-        "y": -306
+        "x": 1617,
+        "y": 126
       },
       {
         "entity": {
@@ -1467,8 +2788,8 @@
         "layer": "layer0",
         "props": [],
         "rotation": 0,
-        "x": -147,
-        "y": -450
+        "x": 1491,
+        "y": 342
       },
       {
         "entity": {
@@ -1478,8 +2799,30 @@
         "layer": "layer0",
         "props": [],
         "rotation": 0,
-        "x": -651,
-        "y": -450
+        "x": -1029,
+        "y": 198
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": 1239,
+        "y": 54
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": -903,
+        "y": 414
       },
       {
         "entity": {
@@ -1501,40 +2844,7 @@
         "props": [],
         "rotation": 0,
         "x": 987,
-        "y": 630
-      },
-      {
-        "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
-          "name": "TileWater"
-        },
-        "layer": "layer0",
-        "props": [],
-        "rotation": 0,
-        "x": -273,
-        "y": 774
-      },
-      {
-        "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
-          "name": "TileWater"
-        },
-        "layer": "layer0",
-        "props": [],
-        "rotation": 0,
-        "x": 861,
-        "y": 414
-      },
-      {
-        "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
-          "name": "TileWater"
-        },
-        "layer": "layer0",
-        "props": [],
-        "rotation": 0,
-        "x": -399,
-        "y": 558
+        "y": 342
       },
       {
         "entity": {
@@ -1555,8 +2865,8 @@
         "layer": "layer0",
         "props": [],
         "rotation": 0,
-        "x": -525,
-        "y": -954
+        "x": -651,
+        "y": -1170
       },
       {
         "entity": {
@@ -1566,8 +2876,8 @@
         "layer": "layer0",
         "props": [],
         "rotation": 0,
-        "x": -1029,
-        "y": 198
+        "x": -273,
+        "y": 486
       },
       {
         "entity": {
@@ -1577,8 +2887,8 @@
         "layer": "layer0",
         "props": [],
         "rotation": 0,
-        "x": -903,
-        "y": -18
+        "x": 609,
+        "y": 126
       },
       {
         "entity": {
@@ -1588,8 +2898,8 @@
         "layer": "layer0",
         "props": [],
         "rotation": 0,
-        "x": 987,
-        "y": -1386
+        "x": -147,
+        "y": -1746
       },
       {
         "entity": {
@@ -1597,9 +2907,10 @@
           "name": "TileWater"
         },
         "layer": "layer0",
+        "props": [],
         "rotation": 0,
-        "x": -21,
-        "y": -378
+        "x": 1617,
+        "y": -882
       },
       {
         "entity": {
@@ -1620,8 +2931,8 @@
         "layer": "layer0",
         "props": [],
         "rotation": 0,
-        "x": -651,
-        "y": -882
+        "x": 735,
+        "y": -1386
       },
       {
         "entity": {
@@ -1631,7 +2942,7 @@
         "layer": "layer0",
         "props": [],
         "rotation": 0,
-        "x": 987,
+        "x": 483,
         "y": 198
       },
       {
@@ -1642,8 +2953,8 @@
         "layer": "layer0",
         "props": [],
         "rotation": 0,
-        "x": 861,
-        "y": -1458
+        "x": -651,
+        "y": -450
       },
       {
         "entity": {
@@ -1653,8 +2964,270 @@
         "layer": "layer0",
         "props": [],
         "rotation": 0,
-        "x": -903,
-        "y": 270
+        "x": 1365,
+        "y": -1170
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": 1617,
+        "y": -1170
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "rotation": 0,
+        "x": -399,
+        "y": -306
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": 1491,
+        "y": -90
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": 357,
+        "y": 126
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": -777,
+        "y": 342
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": 483,
+        "y": -1386
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": 1869,
+        "y": -1026
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": 1113,
+        "y": -594
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": 987,
+        "y": -1098
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": -1029,
+        "y": -810
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": 483,
+        "y": 1062
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": -21,
+        "y": -1530
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": 1743,
+        "y": 54
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": 735,
+        "y": -1962
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "rotation": 0,
+        "x": -273,
+        "y": -234
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": 357,
+        "y": 414
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": 1365,
+        "y": -1026
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": 1617,
+        "y": -594
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": -21,
+        "y": 774
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": -777,
+        "y": -1098
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": 987,
+        "y": -1530
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": 1617,
+        "y": -1026
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": 1365,
+        "y": -1314
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": 1491,
+        "y": 486
       },
       {
         "entity": {
@@ -1675,8 +3248,8 @@
         "layer": "layer0",
         "props": [],
         "rotation": 0,
-        "x": -903,
-        "y": -306
+        "x": 1365,
+        "y": -162
       },
       {
         "entity": {
@@ -1686,29 +3259,7 @@
         "layer": "layer0",
         "props": [],
         "rotation": 0,
-        "x": 483,
-        "y": -1386
-      },
-      {
-        "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
-          "name": "TileWater"
-        },
-        "layer": "layer0",
-        "props": [],
-        "rotation": 0,
-        "x": 483,
-        "y": 774
-      },
-      {
-        "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
-          "name": "TileWater"
-        },
-        "layer": "layer0",
-        "props": [],
-        "rotation": 0,
-        "x": -777,
+        "x": -21,
         "y": -522
       },
       {
@@ -1719,8 +3270,8 @@
         "layer": "layer0",
         "props": [],
         "rotation": 0,
-        "x": -147,
-        "y": -18
+        "x": 609,
+        "y": 846
       },
       {
         "entity": {
@@ -1730,8 +3281,8 @@
         "layer": "layer0",
         "props": [],
         "rotation": 0,
-        "x": -147,
-        "y": 558
+        "x": -21,
+        "y": -1818
       },
       {
         "entity": {
@@ -1741,8 +3292,8 @@
         "layer": "layer0",
         "props": [],
         "rotation": 0,
-        "x": -147,
-        "y": -738
+        "x": -399,
+        "y": -1458
       },
       {
         "entity": {
@@ -1752,8 +3303,8 @@
         "layer": "layer0",
         "props": [],
         "rotation": 0,
-        "x": -273,
-        "y": 54
+        "x": 105,
+        "y": 270
       },
       {
         "entity": {
@@ -1763,8 +3314,8 @@
         "layer": "layer0",
         "props": [],
         "rotation": 0,
-        "x": -273,
-        "y": 630
+        "x": 1491,
+        "y": -1242
       },
       {
         "entity": {
@@ -1774,7 +3325,29 @@
         "layer": "layer0",
         "props": [],
         "rotation": 0,
-        "x": -525,
+        "x": 1491,
+        "y": -666
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": -903,
+        "y": -882
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": 231,
         "y": 342
       },
       {
@@ -1785,7 +3358,18 @@
         "layer": "layer0",
         "props": [],
         "rotation": 0,
-        "x": 357,
+        "x": 1113,
+        "y": -882
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": 609,
         "y": 990
       },
       {
@@ -1796,215 +3380,7 @@
         "layer": "layer0",
         "props": [],
         "rotation": 0,
-        "x": 105,
-        "y": 846
-      },
-      {
-        "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
-          "name": "TileWater"
-        },
-        "layer": "layer0",
-        "props": [],
-        "rotation": 0,
-        "x": 1239,
-        "y": -810
-      },
-      {
-        "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
-          "name": "TileWater"
-        },
-        "layer": "layer0",
-        "props": [],
-        "rotation": 0,
-        "x": 987,
-        "y": 54
-      },
-      {
-        "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
-          "name": "TileWater"
-        },
-        "layer": "layer0",
-        "props": [],
-        "rotation": 0,
-        "x": 357,
-        "y": 702
-      },
-      {
-        "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
-          "name": "TileWater"
-        },
-        "layer": "layer0",
-        "props": [],
-        "rotation": 0,
-        "x": 231,
-        "y": -1242
-      },
-      {
-        "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
-          "name": "TileWater"
-        },
-        "layer": "layer0",
-        "props": [],
-        "rotation": 0,
-        "x": 861,
-        "y": 126
-      },
-      {
-        "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
-          "name": "TileWater"
-        },
-        "layer": "layer0",
-        "props": [],
-        "rotation": 0,
-        "x": 1113,
-        "y": -450
-      },
-      {
-        "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
-          "name": "TileWater"
-        },
-        "layer": "layer0",
-        "props": [],
-        "rotation": 0,
-        "x": 1365,
-        "y": -162
-      },
-      {
-        "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
-          "name": "TileWater"
-        },
-        "layer": "layer0",
-        "rotation": 0,
-        "x": -399,
-        "y": -162
-      },
-      {
-        "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
-          "name": "TileWater"
-        },
-        "layer": "layer0",
-        "props": [],
-        "rotation": 0,
-        "x": 483,
-        "y": 486
-      },
-      {
-        "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
-          "name": "TileWater"
-        },
-        "layer": "layer0",
-        "props": [],
-        "rotation": 0,
-        "x": -525,
-        "y": -666
-      },
-      {
-        "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
-          "name": "TileWater"
-        },
-        "layer": "layer0",
-        "props": [],
-        "rotation": 0,
-        "x": -1029,
-        "y": 342
-      },
-      {
-        "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
-          "name": "TileWater"
-        },
-        "layer": "layer0",
-        "props": [],
-        "rotation": 0,
-        "x": 105,
-        "y": 558
-      },
-      {
-        "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
-          "name": "TileWater"
-        },
-        "layer": "layer0",
-        "props": [],
-        "rotation": 0,
-        "x": 987,
-        "y": -1242
-      },
-      {
-        "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
-          "name": "TileWater"
-        },
-        "layer": "layer0",
-        "props": [],
-        "rotation": 0,
-        "x": -21,
-        "y": -90
-      },
-      {
-        "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
-          "name": "TileWater"
-        },
-        "layer": "layer0",
-        "props": [],
-        "rotation": 0,
-        "x": 1113,
-        "y": -18
-      },
-      {
-        "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
-          "name": "TileWater"
-        },
-        "layer": "layer0",
-        "props": [],
-        "rotation": 0,
-        "x": 1113,
-        "y": 558
-      },
-      {
-        "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
-          "name": "TileWater"
-        },
-        "layer": "layer0",
-        "props": [],
-        "rotation": 0,
-        "x": -651,
-        "y": 270
-      },
-      {
-        "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
-          "name": "TileWater"
-        },
-        "layer": "layer0",
-        "props": [],
-        "rotation": 0,
-        "x": 105,
-        "y": -1170
-      },
-      {
-        "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
-          "name": "TileWater"
-        },
-        "layer": "layer0",
-        "props": [],
-        "rotation": 0,
-        "x": -903,
+        "x": 1869,
         "y": 414
       },
       {
@@ -2015,8 +3391,8 @@
         "layer": "layer0",
         "props": [],
         "rotation": 0,
-        "x": -651,
-        "y": -162
+        "x": -903,
+        "y": -450
       },
       {
         "entity": {
@@ -2026,74 +3402,8 @@
         "layer": "layer0",
         "props": [],
         "rotation": 0,
-        "x": 1239,
-        "y": -90
-      },
-      {
-        "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
-          "name": "TileWater"
-        },
-        "layer": "layer0",
-        "props": [],
-        "rotation": 0,
-        "x": 861,
-        "y": -1602
-      },
-      {
-        "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
-          "name": "TileWater"
-        },
-        "layer": "layer0",
-        "props": [],
-        "rotation": 0,
-        "x": 1365,
-        "y": 270
-      },
-      {
-        "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
-          "name": "TileWater"
-        },
-        "layer": "layer0",
-        "props": [],
-        "rotation": 0,
-        "x": -1029,
-        "y": -234
-      },
-      {
-        "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
-          "name": "TileWater"
-        },
-        "layer": "layer0",
-        "props": [],
-        "rotation": 0,
-        "x": 1113,
-        "y": 126
-      },
-      {
-        "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
-          "name": "TileWater"
-        },
-        "layer": "layer0",
-        "props": [],
-        "rotation": 0,
-        "x": -651,
-        "y": -18
-      },
-      {
-        "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
-          "name": "TileWater"
-        },
-        "layer": "layer0",
-        "props": [],
-        "rotation": 0,
-        "x": -525,
-        "y": -522
+        "x": -777,
+        "y": -1386
       },
       {
         "entity": {
@@ -2114,160 +3424,8 @@
         "layer": "layer0",
         "props": [],
         "rotation": 0,
-        "x": -1029,
-        "y": -522
-      },
-      {
-        "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
-          "name": "TileWater"
-        },
-        "layer": "layer0",
-        "props": [],
-        "rotation": 0,
-        "x": 735,
-        "y": 630
-      },
-      {
-        "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
-          "name": "TileWater"
-        },
-        "layer": "layer0",
-        "props": [],
-        "rotation": 0,
-        "x": -273,
-        "y": -810
-      },
-      {
-        "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
-          "name": "TileWater"
-        },
-        "layer": "layer0",
-        "props": [],
-        "rotation": 0,
-        "x": 1113,
-        "y": -594
-      },
-      {
-        "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
-          "name": "TileWater"
-        },
-        "layer": "layer0",
-        "props": [],
-        "rotation": 0,
-        "x": -147,
-        "y": -1314
-      },
-      {
-        "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
-          "name": "TileWater"
-        },
-        "layer": "layer0",
-        "rotation": 0,
-        "x": -147,
-        "y": 270
-      },
-      {
-        "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
-          "name": "TileWater"
-        },
-        "layer": "layer0",
-        "props": [],
-        "rotation": 0,
-        "x": 735,
-        "y": 54
-      },
-      {
-        "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
-          "name": "TileWater"
-        },
-        "layer": "layer0",
-        "props": [],
-        "rotation": 0,
-        "x": 1239,
-        "y": -378
-      },
-      {
-        "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
-          "name": "TileWater"
-        },
-        "layer": "layer0",
-        "props": [],
-        "rotation": 0,
-        "x": -21,
-        "y": 918
-      },
-      {
-        "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
-          "name": "TileWater"
-        },
-        "layer": "layer0",
-        "props": [],
-        "rotation": 0,
-        "x": -651,
-        "y": -306
-      },
-      {
-        "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
-          "name": "TileWater"
-        },
-        "layer": "layer0",
-        "rotation": 0,
-        "x": -273,
-        "y": 198
-      },
-      {
-        "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
-          "name": "TileWater"
-        },
-        "layer": "layer0",
-        "props": [],
-        "rotation": 0,
-        "x": -651,
-        "y": 558
-      },
-      {
-        "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
-          "name": "TileWater"
-        },
-        "layer": "layer0",
-        "props": [],
-        "rotation": 0,
-        "x": -525,
-        "y": -1098
-      },
-      {
-        "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
-          "name": "TileWater"
-        },
-        "layer": "layer0",
-        "props": [],
-        "rotation": 0,
-        "x": -399,
-        "y": -1026
-      },
-      {
-        "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
-          "name": "TileWater"
-        },
-        "layer": "layer0",
-        "props": [],
-        "rotation": 0,
-        "x": 1113,
-        "y": -1314
+        "x": 1743,
+        "y": 486
       },
       {
         "entity": {
@@ -2278,7 +3436,7 @@
         "props": [],
         "rotation": 0,
         "x": 987,
-        "y": -90
+        "y": 486
       },
       {
         "entity": {
@@ -2288,18 +3446,8 @@
         "layer": "layer0",
         "props": [],
         "rotation": 0,
-        "x": 735,
-        "y": 198
-      },
-      {
-        "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
-          "name": "TileWater"
-        },
-        "layer": "layer0",
-        "rotation": 0,
-        "x": -273,
-        "y": 342
+        "x": -1029,
+        "y": -954
       },
       {
         "entity": {
@@ -2310,7 +3458,7 @@
         "props": [],
         "rotation": 0,
         "x": 609,
-        "y": -1458
+        "y": 558
       },
       {
         "entity": {
@@ -2320,8 +3468,183 @@
         "layer": "layer0",
         "props": [],
         "rotation": 0,
+        "x": -273,
+        "y": 630
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": 357,
+        "y": -1890
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": 483,
+        "y": -2106
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": -525,
+        "y": 486
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": 1239,
+        "y": -810
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": 609,
+        "y": -1746
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": -1029,
+        "y": 342
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": -273,
+        "y": 54
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "rotation": 0,
         "x": -399,
-        "y": -1170
+        "y": -18
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": 861,
+        "y": -1314
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": 1869,
+        "y": -162
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": 483,
+        "y": 918
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": 1491,
+        "y": -1530
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": 987,
+        "y": -1386
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": 1995,
+        "y": 54
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": -525,
+        "y": -810
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": -21,
+        "y": -90
       },
       {
         "entity": {
@@ -2342,128 +3665,8 @@
         "layer": "layer0",
         "props": [],
         "rotation": 0,
-        "x": 357,
-        "y": 846
-      },
-      {
-        "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
-          "name": "TileWater"
-        },
-        "layer": "layer0",
-        "props": [],
-        "rotation": 0,
-        "x": -903,
-        "y": 126
-      },
-      {
-        "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
-          "name": "TileWater"
-        },
-        "layer": "layer0",
-        "props": [],
-        "rotation": 0,
-        "x": -147,
-        "y": -1170
-      },
-      {
-        "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
-          "name": "TileWater"
-        },
-        "layer": "layer0",
-        "props": [],
-        "rotation": 0,
-        "x": 231,
-        "y": -1530
-      },
-      {
-        "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
-          "name": "TileWater"
-        },
-        "layer": "layer0",
-        "rotation": 0,
-        "x": -525,
-        "y": 54
-      },
-      {
-        "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
-          "name": "TileWater"
-        },
-        "layer": "layer0",
-        "props": [],
-        "rotation": 0,
-        "x": 231,
-        "y": 630
-      },
-      {
-        "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
-          "name": "TileWater"
-        },
-        "layer": "layer0",
-        "props": [],
-        "rotation": 0,
-        "x": 483,
-        "y": 630
-      },
-      {
-        "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
-          "name": "TileWater"
-        },
-        "layer": "layer0",
-        "props": [],
-        "rotation": 0,
-        "x": -147,
-        "y": 846
-      },
-      {
-        "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
-          "name": "TileWater"
-        },
-        "layer": "layer0",
-        "props": [],
-        "rotation": 0,
-        "x": -777,
-        "y": 486
-      },
-      {
-        "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
-          "name": "TileWater"
-        },
-        "layer": "layer0",
-        "props": [],
-        "rotation": 0,
-        "x": 987,
-        "y": -522
-      },
-      {
-        "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
-          "name": "TileWater"
-        },
-        "layer": "layer0",
-        "props": [],
-        "rotation": 0,
-        "x": 1239,
-        "y": -1386
-      },
-      {
-        "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
-          "name": "TileWater"
-        },
-        "layer": "layer0",
-        "props": [],
-        "rotation": 0,
-        "x": 735,
-        "y": -1530
+        "x": 1617,
+        "y": -450
       },
       {
         "entity": {
@@ -2484,8 +3687,8 @@
         "layer": "layer0",
         "props": [],
         "rotation": 0,
-        "x": 1113,
-        "y": 270
+        "x": -273,
+        "y": -1098
       },
       {
         "entity": {
@@ -2495,239 +3698,96 @@
         "layer": "layer0",
         "props": [],
         "rotation": 0,
-        "x": 1365,
-        "y": 126
+        "x": -273,
+        "y": -666
       },
       {
         "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\BlockFull.png",
-          "name": "BlockFull"
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
         },
         "layer": "layer0",
         "props": [],
         "rotation": 0,
-        "x": 483,
-        "y": -810
+        "x": -147,
+        "y": -1602
       },
       {
         "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\BlockFull.png",
-          "name": "BlockFull"
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
         },
         "layer": "layer0",
         "props": [],
         "rotation": 0,
-        "x": 231,
-        "y": -954
+        "x": -147,
+        "y": -594
       },
       {
         "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\BlockFull.png",
-          "name": "BlockFull"
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
         },
         "layer": "layer0",
         "props": [],
         "rotation": 0,
-        "x": 609,
-        "y": -882
+        "x": 1113,
+        "y": 414
       },
       {
         "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\BlockFull.png",
-          "name": "BlockFull"
-        },
-        "layer": "layer0",
-        "props": [],
-        "rotation": 0,
-        "x": 357,
-        "y": -1026
-      },
-      {
-        "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\BlockFull.png",
-          "name": "BlockFull"
-        },
-        "layer": "layer0",
-        "props": [],
-        "rotation": 0,
-        "x": 357,
-        "y": -882
-      },
-      {
-        "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\BlockFull.png",
-          "name": "BlockFull"
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
         },
         "layer": "layer0",
         "props": [],
         "rotation": 0,
         "x": 735,
-        "y": -810
+        "y": -1242
       },
       {
         "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\BlockFull.png",
-          "name": "BlockFull"
-        },
-        "layer": "layer0",
-        "props": [],
-        "rotation": 0,
-        "x": 231,
-        "y": -810
-      },
-      {
-        "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileOldJeremy.png",
-          "name": "TileOldJeremy"
-        },
-        "layer": "layer0",
-        "props": [],
-        "rotation": 0,
-        "x": 483,
-        "y": -954
-      },
-      {
-        "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileJeremy.png",
-          "name": "TileJeremy"
-        },
-        "layer": "layer0",
-        "props": [],
-        "rotation": 0,
-        "x": 483,
-        "y": -378
-      },
-      {
-        "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileJeremy.png",
-          "name": "TileJeremy"
-        },
-        "layer": "layer0",
-        "props": [],
-        "rotation": 0,
-        "x": 483,
-        "y": -234
-      },
-      {
-        "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileJeremy.png",
-          "name": "TileJeremy"
-        },
-        "layer": "layer0",
-        "props": [],
-        "rotation": 0,
-        "x": 609,
-        "y": -162
-      },
-      {
-        "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileJeremy.png",
-          "name": "TileJeremy"
-        },
-        "layer": "layer0",
-        "props": [],
-        "rotation": 0,
-        "x": 609,
-        "y": -306
-      },
-      {
-        "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileJeremy.png",
-          "name": "TileJeremy"
-        },
-        "layer": "layer0",
-        "props": [],
-        "rotation": 0,
-        "x": 735,
-        "y": -378
-      },
-      {
-        "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileJeremy.png",
-          "name": "TileJeremy"
-        },
-        "layer": "layer0",
-        "props": [],
-        "rotation": 0,
-        "x": 609,
-        "y": -450
-      },
-      {
-        "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileJeremy.png",
-          "name": "TileJeremy"
-        },
-        "layer": "layer0",
-        "props": [],
-        "rotation": 0,
-        "x": 735,
-        "y": -234
-      },
-      {
-        "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileSand.png",
-          "name": "TileSand"
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
         },
         "layer": "layer0",
         "props": [],
         "rotation": 0,
         "x": 105,
-        "y": -1026
+        "y": 558
       },
       {
         "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileSand.png",
-          "name": "TileSand"
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
         },
         "layer": "layer0",
         "props": [],
         "rotation": 0,
-        "x": 231,
-        "y": -1098
+        "x": 483,
+        "y": -1962
       },
       {
         "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileSand.png",
-          "name": "TileSand"
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
         },
         "layer": "layer0",
         "props": [],
         "rotation": 0,
-        "x": 357,
-        "y": -1170
+        "x": 735,
+        "y": 1062
       },
       {
         "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileSand.png",
-          "name": "TileSand"
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
         },
         "layer": "layer0",
         "props": [],
         "rotation": 0,
-        "x": 861,
-        "y": -882
-      },
-      {
-        "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileSand.png",
-          "name": "TileSand"
-        },
-        "layer": "layer0",
-        "props": [],
-        "rotation": 0,
-        "x": 861,
-        "y": -738
-      },
-      {
-        "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileSand.png",
-          "name": "TileSand"
-        },
-        "layer": "layer0",
-        "props": [],
-        "rotation": 0,
-        "x": 861,
-        "y": -594
+        "x": -903,
+        "y": 270
       },
       {
         "entity": {
@@ -2748,8 +3808,8 @@
         "layer": "layer0",
         "props": [],
         "rotation": 0,
-        "x": 735,
-        "y": -1242
+        "x": 1365,
+        "y": 270
       },
       {
         "entity": {
@@ -2759,227 +3819,29 @@
         "layer": "layer0",
         "props": [],
         "rotation": 0,
-        "x": 861,
-        "y": -1170
+        "x": -525,
+        "y": -378
       },
       {
         "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileSand.png",
-          "name": "TileSand"
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": -147,
+        "y": -162
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
         },
         "layer": "layer0",
         "props": [],
         "rotation": 0,
         "x": 483,
-        "y": -1242
-      },
-      {
-        "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileSand.png",
-          "name": "TileSand"
-        },
-        "layer": "layer0",
-        "props": [],
-        "rotation": 0,
-        "x": 609,
-        "y": -1170
-      },
-      {
-        "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileSand.png",
-          "name": "TileSand"
-        },
-        "layer": "layer0",
-        "props": [],
-        "rotation": 0,
-        "x": 735,
-        "y": -1098
-      },
-      {
-        "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileSand.png",
-          "name": "TileSand"
-        },
-        "layer": "layer0",
-        "props": [],
-        "rotation": 0,
-        "x": 861,
-        "y": -1026
-      },
-      {
-        "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileSand.png",
-          "name": "TileSand"
-        },
-        "layer": "layer0",
-        "props": [],
-        "rotation": 0,
-        "x": 105,
-        "y": -882
-      },
-      {
-        "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileSand.png",
-          "name": "TileSand"
-        },
-        "layer": "layer0",
-        "props": [],
-        "rotation": 0,
-        "x": 105,
-        "y": -738
-      },
-      {
-        "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileSand.png",
-          "name": "TileSand"
-        },
-        "layer": "layer0",
-        "props": [],
-        "rotation": 0,
-        "x": 105,
-        "y": -594
-      },
-      {
-        "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileSand.png",
-          "name": "TileSand"
-        },
-        "layer": "layer0",
-        "props": [],
-        "rotation": 0,
-        "x": 105,
-        "y": -450
-      },
-      {
-        "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileSand.png",
-          "name": "TileSand"
-        },
-        "layer": "layer0",
-        "props": [],
-        "rotation": 0,
-        "x": 105,
-        "y": -306
-      },
-      {
-        "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileSand.png",
-          "name": "TileSand"
-        },
-        "layer": "layer0",
-        "props": [],
-        "rotation": 0,
-        "x": 861,
-        "y": -450
-      },
-      {
-        "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileSand.png",
-          "name": "TileSand"
-        },
-        "layer": "layer0",
-        "props": [],
-        "rotation": 0,
-        "x": 861,
-        "y": -306
-      },
-      {
-        "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileSand.png",
-          "name": "TileSand"
-        },
-        "layer": "layer0",
-        "props": [],
-        "rotation": 0,
-        "x": 861,
-        "y": -162
-      },
-      {
-        "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileSand.png",
-          "name": "TileSand"
-        },
-        "layer": "layer0",
-        "props": [],
-        "rotation": 0,
-        "x": 735,
-        "y": -90
-      },
-      {
-        "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileSand.png",
-          "name": "TileSand"
-        },
-        "layer": "layer0",
-        "props": [],
-        "rotation": 0,
-        "x": 105,
-        "y": -162
-      },
-      {
-        "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileSand.png",
-          "name": "TileSand"
-        },
-        "layer": "layer0",
-        "props": [],
-        "rotation": 0,
-        "x": 231,
-        "y": -90
-      },
-      {
-        "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileSand.png",
-          "name": "TileSand"
-        },
-        "layer": "layer0",
-        "props": [],
-        "rotation": 0,
-        "x": 357,
-        "y": -18
-      },
-      {
-        "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileSand.png",
-          "name": "TileSand"
-        },
-        "layer": "layer0",
-        "props": [],
-        "rotation": 0,
-        "x": 483,
-        "y": 54
-      },
-      {
-        "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileSand.png",
-          "name": "TileSand"
-        },
-        "layer": "layer0",
-        "props": [],
-        "rotation": 0,
-        "x": 609,
-        "y": -18
-      },
-      {
-        "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
-          "name": "TileWater"
-        },
-        "layer": "layer0",
-        "props": [],
-        "rotation": 0,
-        "x": 105,
-        "y": 414
-      },
-      {
-        "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
-          "name": "TileWater"
-        },
-        "layer": "layer0",
-        "props": [],
-        "rotation": 0,
-        "x": 231,
         "y": 486
       },
       {
@@ -2988,20 +3850,8 @@
           "name": "TileWater"
         },
         "layer": "layer0",
-        "props": [],
         "rotation": 0,
-        "x": 357,
-        "y": 414
-      },
-      {
-        "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
-          "name": "TileWater"
-        },
-        "layer": "layer0",
-        "props": [],
-        "rotation": 0,
-        "x": 483,
+        "x": -21,
         "y": 342
       },
       {
@@ -3012,62 +3862,7 @@
         "layer": "layer0",
         "props": [],
         "rotation": 0,
-        "x": 609,
-        "y": 270
-      },
-      {
-        "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
-          "name": "TileWater"
-        },
-        "layer": "layer0",
-        "props": [],
-        "rotation": 0,
-        "x": 609,
-        "y": 126
-      },
-      {
-        "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
-          "name": "TileWater"
-        },
-        "layer": "layer0",
-        "props": [],
-        "rotation": 0,
-        "x": 483,
-        "y": 198
-      },
-      {
-        "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
-          "name": "TileWater"
-        },
-        "layer": "layer0",
-        "props": [],
-        "rotation": 0,
-        "x": 357,
-        "y": 126
-      },
-      {
-        "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
-          "name": "TileWater"
-        },
-        "layer": "layer0",
-        "props": [],
-        "rotation": 0,
-        "x": 357,
-        "y": 270
-      },
-      {
-        "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
-          "name": "TileWater"
-        },
-        "layer": "layer0",
-        "props": [],
-        "rotation": 0,
-        "x": 231,
+        "x": 1995,
         "y": 342
       },
       {
@@ -3078,8 +3873,8 @@
         "layer": "layer0",
         "props": [],
         "rotation": 0,
-        "x": 105,
-        "y": 270
+        "x": 1239,
+        "y": -1674
       },
       {
         "entity": {
@@ -3089,40 +3884,7 @@
         "layer": "layer0",
         "props": [],
         "rotation": 0,
-        "x": 231,
-        "y": 198
-      },
-      {
-        "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
-          "name": "TileWater"
-        },
-        "layer": "layer0",
-        "props": [],
-        "rotation": 0,
-        "x": 105,
-        "y": 126
-      },
-      {
-        "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
-          "name": "TileWater"
-        },
-        "layer": "layer0",
-        "props": [],
-        "rotation": 0,
-        "x": 231,
-        "y": 54
-      },
-      {
-        "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
-          "name": "TileWater"
-        },
-        "layer": "layer0",
-        "props": [],
-        "rotation": 0,
-        "x": 105,
+        "x": 861,
         "y": -18
       },
       {
@@ -3133,7 +3895,106 @@
         "layer": "layer0",
         "props": [],
         "rotation": 0,
-        "x": -21,
+        "x": -147,
+        "y": 558
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": -777,
+        "y": -1242
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": 1491,
+        "y": 198
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": 1743,
+        "y": -378
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": 1239,
+        "y": 342
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": 987,
+        "y": -1674
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": 231,
+        "y": -1818
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": 609,
+        "y": -1602
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": 609,
+        "y": -1890
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": -777,
         "y": -522
       },
       {
@@ -3144,7 +4005,18 @@
         "layer": "layer0",
         "props": [],
         "rotation": 0,
-        "x": -21,
+        "x": -525,
+        "y": -522
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": 1239,
         "y": -666
       },
       {
@@ -3155,8 +4027,8 @@
         "layer": "layer0",
         "props": [],
         "rotation": 0,
-        "x": -21,
-        "y": -810
+        "x": 1113,
+        "y": 846
       },
       {
         "entity": {
@@ -3166,70 +4038,256 @@
         "layer": "layer0",
         "props": [],
         "rotation": 0,
-        "x": -21,
-        "y": -954
+        "x": 231,
+        "y": -1242
       },
       {
         "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\BlockFull.png",
-          "name": "BlockFull"
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": -651,
+        "y": -1026
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": -903,
+        "y": -594
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": 1743,
+        "y": -1242
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": 1365,
+        "y": -306
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": -1029,
+        "y": -90
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": 1113,
+        "y": -1026
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": 1239,
+        "y": -1386
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": 861,
+        "y": 702
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": -525,
+        "y": -1098
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": -651,
+        "y": -1458
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": 105,
+        "y": -1314
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": -777,
+        "y": -234
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": -651,
+        "y": -1314
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "rotation": 0,
+        "x": -525,
+        "y": 198
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": -147,
+        "y": 126
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": 1491,
+        "y": -378
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
         },
         "layer": "layer0",
         "props": [],
         "rotation": 0,
         "x": 735,
-        "y": -954
+        "y": 630
       },
       {
         "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\BlockFull.png",
-          "name": "BlockFull"
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
         },
         "layer": "layer0",
         "props": [],
         "rotation": 0,
-        "x": 609,
-        "y": -1026
+        "x": 987,
+        "y": -666
       },
       {
         "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\BlockFull.png",
-          "name": "BlockFull"
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
         },
         "layer": "layer0",
         "props": [],
         "rotation": 0,
-        "x": 483,
-        "y": -1098
+        "x": -147,
+        "y": 846
       },
       {
         "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\BlockFull.png",
-          "name": "BlockFull"
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
         },
         "layer": "layer0",
         "props": [],
         "rotation": 0,
-        "x": 483,
-        "y": -90
+        "x": 1995,
+        "y": -666
       },
       {
         "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\BlockFull.png",
-          "name": "BlockFull"
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
         },
         "layer": "layer0",
         "props": [],
         "rotation": 0,
-        "x": 357,
-        "y": -162
+        "x": 1113,
+        "y": 126
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileWater.png",
+          "name": "TileWater"
+        },
+        "layer": "layer0",
+        "props": [],
+        "rotation": 0,
+        "x": 1365,
+        "y": -1458
       },
       {
         "entity": {
           "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\BlockFull.png",
           "name": "BlockFull"
         },
-        "layer": "layer0",
+        "layer": "layer1",
         "props": [],
         "rotation": 0,
         "x": 231,
@@ -3240,18 +4298,205 @@
           "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\BlockFull.png",
           "name": "BlockFull"
         },
-        "layer": "layer0",
+        "layer": "layer1",
         "props": [],
         "rotation": 0,
-        "x": 357,
-        "y": -306
+        "x": 483,
+        "y": -1098
       },
       {
         "entity": {
           "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\BlockFull.png",
           "name": "BlockFull"
         },
-        "layer": "layer0",
+        "layer": "layer1",
+        "props": [],
+        "rotation": 0,
+        "x": 609,
+        "y": -882
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\BlockFull.png",
+          "name": "BlockFull"
+        },
+        "layer": "layer1",
+        "props": [],
+        "rotation": 0,
+        "x": 357,
+        "y": -1026
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\BlockFull.png",
+          "name": "BlockFull"
+        },
+        "layer": "layer1",
+        "props": [],
+        "rotation": 0,
+        "x": 357,
+        "y": -882
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\BlockFull.png",
+          "name": "BlockFull"
+        },
+        "layer": "layer1",
+        "props": [],
+        "rotation": 0,
+        "x": 483,
+        "y": -810
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\BlockFull.png",
+          "name": "BlockFull"
+        },
+        "layer": "layer1",
+        "props": [],
+        "rotation": 0,
+        "x": 357,
+        "y": -738
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\BlockFull.png",
+          "name": "BlockFull"
+        },
+        "layer": "layer1",
+        "props": [],
+        "rotation": 0,
+        "x": 231,
+        "y": -666
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\BlockFull.png",
+          "name": "BlockFull"
+        },
+        "layer": "layer1",
+        "props": [],
+        "rotation": 0,
+        "x": 609,
+        "y": -594
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\BlockFull.png",
+          "name": "BlockFull"
+        },
+        "layer": "layer1",
+        "props": [],
+        "rotation": 0,
+        "x": 609,
+        "y": -1026
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\BlockFull.png",
+          "name": "BlockFull"
+        },
+        "layer": "layer1",
+        "props": [],
+        "rotation": 0,
+        "x": 609,
+        "y": -738
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\BlockFull.png",
+          "name": "BlockFull"
+        },
+        "layer": "layer1",
+        "props": [],
+        "rotation": 0,
+        "x": 231,
+        "y": -954
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\BlockFull.png",
+          "name": "BlockFull"
+        },
+        "layer": "layer1",
+        "props": [],
+        "rotation": 0,
+        "x": 735,
+        "y": -954
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\BlockFull.png",
+          "name": "BlockFull"
+        },
+        "layer": "layer1",
+        "props": [],
+        "rotation": 0,
+        "x": 231,
+        "y": -522
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\BlockFull.png",
+          "name": "BlockFull"
+        },
+        "layer": "layer1",
+        "props": [],
+        "rotation": 0,
+        "x": 735,
+        "y": -810
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\BlockFull.png",
+          "name": "BlockFull"
+        },
+        "layer": "layer1",
+        "props": [],
+        "rotation": 0,
+        "x": 483,
+        "y": -666
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\BlockFull.png",
+          "name": "BlockFull"
+        },
+        "layer": "layer1",
+        "props": [],
+        "rotation": 0,
+        "x": 357,
+        "y": -594
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\BlockFull.png",
+          "name": "BlockFull"
+        },
+        "layer": "layer1",
+        "props": [],
+        "rotation": 0,
+        "x": 735,
+        "y": -666
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\BlockFull.png",
+          "name": "BlockFull"
+        },
+        "layer": "layer1",
+        "props": [],
+        "rotation": 0,
+        "x": 231,
+        "y": -810
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\BlockFull.png",
+          "name": "BlockFull"
+        },
+        "layer": "layer1",
         "props": [],
         "rotation": 0,
         "x": 231,
@@ -3262,62 +4507,7 @@
           "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\BlockFull.png",
           "name": "BlockFull"
         },
-        "layer": "layer0",
-        "props": [],
-        "rotation": 0,
-        "x": 357,
-        "y": -450
-      },
-      {
-        "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\BlockFull.png",
-          "name": "BlockFull"
-        },
-        "layer": "layer0",
-        "props": [],
-        "rotation": 0,
-        "x": 231,
-        "y": -522
-      },
-      {
-        "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\BlockFull.png",
-          "name": "BlockFull"
-        },
-        "layer": "layer0",
-        "props": [],
-        "rotation": 0,
-        "x": 357,
-        "y": -594
-      },
-      {
-        "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\BlockFull.png",
-          "name": "BlockFull"
-        },
-        "layer": "layer0",
-        "props": [],
-        "rotation": 0,
-        "x": 483,
-        "y": -522
-      },
-      {
-        "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\BlockFull.png",
-          "name": "BlockFull"
-        },
-        "layer": "layer0",
-        "props": [],
-        "rotation": 0,
-        "x": 609,
-        "y": -594
-      },
-      {
-        "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\BlockFull.png",
-          "name": "BlockFull"
-        },
-        "layer": "layer0",
+        "layer": "layer1",
         "props": [],
         "rotation": 0,
         "x": 735,
@@ -3325,63 +4515,8 @@
       },
       {
         "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\BlockFull.png",
-          "name": "BlockFull"
-        },
-        "layer": "layer0",
-        "props": [],
-        "rotation": 0,
-        "x": 735,
-        "y": -666
-      },
-      {
-        "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\BlockFull.png",
-          "name": "BlockFull"
-        },
-        "layer": "layer0",
-        "props": [],
-        "rotation": 0,
-        "x": 609,
-        "y": -738
-      },
-      {
-        "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\BlockFull.png",
-          "name": "BlockFull"
-        },
-        "layer": "layer0",
-        "props": [],
-        "rotation": 0,
-        "x": 483,
-        "y": -666
-      },
-      {
-        "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\BlockFull.png",
-          "name": "BlockFull"
-        },
-        "layer": "layer0",
-        "props": [],
-        "rotation": 0,
-        "x": 357,
-        "y": -738
-      },
-      {
-        "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\BlockFull.png",
-          "name": "BlockFull"
-        },
-        "layer": "layer0",
-        "props": [],
-        "rotation": 0,
-        "x": 231,
-        "y": -666
-      },
-      {
-        "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\Hole.png",
-          "name": "Hole"
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileOldJeremy.png",
+          "name": "TileOldJeremy"
         },
         "layer": "layer1",
         "props": [],
@@ -3391,10 +4526,466 @@
       },
       {
         "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileJeremy.png",
+          "name": "TileJeremy"
+        },
+        "layer": "layer1",
+        "props": [],
+        "rotation": 0,
+        "x": 483,
+        "y": -522
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileJeremy.png",
+          "name": "TileJeremy"
+        },
+        "layer": "layer1",
+        "props": [],
+        "rotation": 0,
+        "x": 609,
+        "y": -450
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileJeremy.png",
+          "name": "TileJeremy"
+        },
+        "layer": "layer1",
+        "props": [],
+        "rotation": 0,
+        "x": 483,
+        "y": -378
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileJeremy.png",
+          "name": "TileJeremy"
+        },
+        "layer": "layer1",
+        "props": [],
+        "rotation": 0,
+        "x": 483,
+        "y": -234
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileJeremy.png",
+          "name": "TileJeremy"
+        },
+        "layer": "layer1",
+        "props": [],
+        "rotation": 0,
+        "x": 609,
+        "y": -306
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileJeremy.png",
+          "name": "TileJeremy"
+        },
+        "layer": "layer1",
+        "props": [],
+        "rotation": 0,
+        "x": 357,
+        "y": -450
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileJeremy.png",
+          "name": "TileJeremy"
+        },
+        "layer": "layer1",
+        "props": [],
+        "rotation": 0,
+        "x": 357,
+        "y": -306
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileSand.png",
+          "name": "TileSand"
+        },
+        "layer": "layer1",
+        "props": [],
+        "rotation": 0,
+        "x": 609,
+        "y": -18
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileSand.png",
+          "name": "TileSand"
+        },
+        "layer": "layer1",
+        "props": [],
+        "rotation": 0,
+        "x": 609,
+        "y": -1170
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileSand.png",
+          "name": "TileSand"
+        },
+        "layer": "layer1",
+        "props": [],
+        "rotation": 0,
+        "x": 105,
+        "y": -594
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileSand.png",
+          "name": "TileSand"
+        },
+        "layer": "layer1",
+        "props": [],
+        "rotation": 0,
+        "x": 105,
+        "y": -738
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileSand.png",
+          "name": "TileSand"
+        },
+        "layer": "layer1",
+        "props": [],
+        "rotation": 0,
+        "x": 357,
+        "y": -18
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileSand.png",
+          "name": "TileSand"
+        },
+        "layer": "layer1",
+        "props": [],
+        "rotation": 0,
+        "x": 483,
+        "y": -1242
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileSand.png",
+          "name": "TileSand"
+        },
+        "layer": "layer1",
+        "props": [],
+        "rotation": 0,
+        "x": 357,
+        "y": -1170
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileSand.png",
+          "name": "TileSand"
+        },
+        "layer": "layer1",
+        "props": [],
+        "rotation": 0,
+        "x": 483,
+        "y": 54
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileSand.png",
+          "name": "TileSand"
+        },
+        "layer": "layer1",
+        "props": [],
+        "rotation": 0,
+        "x": 231,
+        "y": -1098
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileSand.png",
+          "name": "TileSand"
+        },
+        "layer": "layer1",
+        "props": [],
+        "rotation": 0,
+        "x": 861,
+        "y": -306
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileSand.png",
+          "name": "TileSand"
+        },
+        "layer": "layer1",
+        "props": [],
+        "rotation": 0,
+        "x": 735,
+        "y": -90
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileSand.png",
+          "name": "TileSand"
+        },
+        "layer": "layer1",
+        "props": [],
+        "rotation": 0,
+        "x": 105,
+        "y": -306
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileSand.png",
+          "name": "TileSand"
+        },
+        "layer": "layer1",
+        "props": [],
+        "rotation": 0,
+        "x": 861,
+        "y": -162
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileSand.png",
+          "name": "TileSand"
+        },
+        "layer": "layer1",
+        "props": [],
+        "rotation": 0,
+        "x": 861,
+        "y": -738
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileSand.png",
+          "name": "TileSand"
+        },
+        "layer": "layer1",
+        "props": [],
+        "rotation": 0,
+        "x": 105,
+        "y": -450
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileSand.png",
+          "name": "TileSand"
+        },
+        "layer": "layer1",
+        "props": [],
+        "rotation": 0,
+        "x": 105,
+        "y": -882
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileSand.png",
+          "name": "TileSand"
+        },
+        "layer": "layer1",
+        "props": [],
+        "rotation": 0,
+        "x": 861,
+        "y": -450
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileSand.png",
+          "name": "TileSand"
+        },
+        "layer": "layer1",
+        "props": [],
+        "rotation": 0,
+        "x": 105,
+        "y": -1026
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileSand.png",
+          "name": "TileSand"
+        },
+        "layer": "layer1",
+        "props": [],
+        "rotation": 0,
+        "x": 861,
+        "y": -594
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileSand.png",
+          "name": "TileSand"
+        },
+        "layer": "layer1",
+        "props": [],
+        "rotation": 0,
+        "x": 231,
+        "y": -90
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileSand.png",
+          "name": "TileSand"
+        },
+        "layer": "layer1",
+        "props": [],
+        "rotation": 0,
+        "x": 105,
+        "y": -162
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileSand.png",
+          "name": "TileSand"
+        },
+        "layer": "layer1",
+        "props": [],
+        "rotation": 0,
+        "x": 861,
+        "y": -1026
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileSand.png",
+          "name": "TileSand"
+        },
+        "layer": "layer1",
+        "props": [],
+        "rotation": 0,
+        "x": 735,
+        "y": -1098
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileSand.png",
+          "name": "TileSand"
+        },
+        "layer": "layer1",
+        "props": [],
+        "rotation": 0,
+        "x": 861,
+        "y": -882
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\BlockFull.png",
+          "name": "BlockFull"
+        },
+        "layer": "layer1",
+        "props": [],
+        "rotation": 0,
+        "x": 357,
+        "y": -162
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\BlockFull.png",
+          "name": "BlockFull"
+        },
+        "layer": "layer1",
+        "props": [],
+        "rotation": 0,
+        "x": 483,
+        "y": -90
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\BlockFull.png",
+          "name": "BlockFull"
+        },
+        "layer": "layer1",
+        "props": [],
+        "rotation": 0,
+        "x": 609,
+        "y": -162
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\BlockFull.png",
+          "name": "BlockFull"
+        },
+        "layer": "layer1",
+        "props": [],
+        "rotation": 0,
+        "x": 735,
+        "y": -234
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\BlockFull.png",
+          "name": "BlockFull"
+        },
+        "layer": "layer1",
+        "props": [],
+        "rotation": 0,
+        "x": 735,
+        "y": -378
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\Hole.png",
+          "name": "Hole"
+        },
+        "layer": "layer2",
+        "props": [],
+        "rotation": 0,
+        "x": 483,
+        "y": -954
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\Jeremy0.png",
+          "name": "Jeremy0"
+        },
+        "layer": "layer3",
+        "props": [],
+        "rotation": 0,
+        "x": 483,
+        "y": -378
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\SpawnPoint.png",
+          "name": "SpawnPoint"
+        },
+        "layer": "layer3",
+        "props": [],
+        "rotation": 0,
+        "x": 567,
+        "y": -306
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\HoleCover.png",
+          "name": "HoleCover"
+        },
+        "layer": "layer3",
+        "props": [],
+        "rotation": 0,
+        "x": 399,
+        "y": -846
+      },
+      {
+        "entity": {
           "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\EventBounds.png",
           "name": "EventBounds"
         },
-        "layer": "layer3",
+        "layer": "layer4",
+        "props": [
+          {
+            "key": "auto",
+            "value": "jtalk|16|map|map1"
+          }
+        ],
+        "rotation": 0,
+        "x": 861,
+        "y": -18
+      },
+      {
+        "entity": {
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\EventBounds.png",
+          "name": "EventBounds"
+        },
+        "layer": "layer4",
         "props": [
           {
             "key": "collision",
@@ -3462,15 +5053,15 @@
           }
         ],
         "rotation": 0,
-        "x": 609,
-        "y": -306
+        "x": 483,
+        "y": -378
       },
       {
         "entity": {
           "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\EventBounds.png",
           "name": "EventBounds"
         },
-        "layer": "layer3",
+        "layer": "layer4",
         "props": [
           {
             "key": "tileClaim",
@@ -3480,63 +5071,15 @@
         "rotation": 0,
         "x": 483,
         "y": -954
-      },
-      {
-        "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\EventBounds.png",
-          "name": "EventBounds"
-        },
-        "layer": "layer3",
-        "props": [
-          {
-            "key": "auto",
-            "value": "jtalk|16|map|map1"
-          }
-        ],
-        "rotation": 0,
-        "x": 861,
-        "y": -18
-      },
-      {
-        "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\Jeremy0.png",
-          "name": "Jeremy0"
-        },
-        "layer": "layer2",
-        "props": [],
-        "rotation": 0,
-        "x": 609,
-        "y": -306
-      },
-      {
-        "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\SpawnPoint.png",
-          "name": "SpawnPoint"
-        },
-        "layer": "layer2",
-        "props": [],
-        "rotation": 0,
-        "x": 693,
-        "y": -234
-      },
-      {
-        "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\HoleCover.png",
-          "name": "HoleCover"
-        },
-        "layer": "layer2",
-        "props": [],
-        "rotation": 0,
-        "x": 399,
-        "y": -846
       }
     ],
     "layers": [
       "layer0",
       "layer1",
       "layer2",
-      "layer3"
+      "layer3",
+      "layer4"
     ]
   },
-  "lastChanged": 1492980748163
+  "lastChanged": 1494578865057
 }

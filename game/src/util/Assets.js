@@ -8,7 +8,9 @@ module.exports = {
   
   // MY_GRAPHIC: "./assets/img/MY_GRAPHIC.png",
   BLOCK: "./assets/img/BlockFull.png",
+  TILE_GREEN_BORDER: "./assets/img/TileGreenBorder.png",
   TILE_WATER: "./assets/img/TileWater.png",
+  TILE_WOOD: "./assets/img/TileWood.png",
   TILE_JEREMY: "./assets/img/TileJeremy.png",
   TILE_OLD_JEREMY: "./assets/img/TileOldJeremy.png",
   TILE_GRASS: "./assets/img/TileGrass.png",
@@ -16,12 +18,17 @@ module.exports = {
   TILE_FREE0: "./assets/img/TileFree0.png",
   TILE_FREE1: "./assets/img/TileFree1.png",
   TILE_FREE2: "./assets/img/TileFree2.png",
-  TILE_VOID: "./assets/img/TileVoid.png",
+  TILE_FREE3: "./assets/img/TileFree3.png",
+  TILE_FREE4: "./assets/img/TileFree4.png",
+  TILE_VOID0: "./assets/img/TileVoid.png",
+  TILE_VOID1: "./assets/img/TileVoid1.png",
   TILE_CLAIMING: "./assets/img/TileClaiming.png",
   TILE_CLAIMED: "./assets/img/TileClaimed.png",
   
   HOLE: "./assets/img/Hole.png",
   HOLE_COVER: "./assets/img/HoleCover.png",
+  
+  BUSH: "./assets/img/Bush.png",
   
   BLACK_BOX: "./assets/img/BlackBox.png",
   

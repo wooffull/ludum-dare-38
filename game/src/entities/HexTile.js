@@ -5,6 +5,7 @@ var util          = require('../util');
 var Assets        = util.Assets;
 var GameObject    = wfl.core.entities.GameObject;
 var PhysicsObject = wfl.core.entities.PhysicsObject;
+var Conditions = require('../Conditions.js');
 var EventBounds = require('./EventBounds');
 var Player = require('./Player');
 
@@ -48,7 +49,7 @@ Object.defineProperties(HexTile, {
     }
   },
   CLAIM_RATE: {
-    value: 0.03
+    value: 0.075
   }
 });
 
@@ -83,6 +84,35 @@ HexTile.prototype = Object.freeze(Object.create(PhysicsObject.prototype, {
           if (this.claimTransition <= 0) {
             this.claimTransition = 0;
             this.currentState.name = HexTile.STATE.CLAIMED;
+            
+            // On Claim:
+            let ev = this.eventBounds;
+            
+            if (ev) {
+              for (let prop of ev.customData.props) {
+                if (prop.key === "onclaim") {
+                  var data = prop.value;
+                  var args = data.split('|');
+                  var conditions = args.length - 1;
+                  var eventSets = [];
+
+                  for (var i = 0; i < conditions; i += 2) {
+                    let cond = args[i];
+                    let newVal  = args[i + 1];
+
+                    eventSets.push({
+                      condition: cond,
+                      newValue: newVal
+                    });
+                  }
+
+                  for (let set of eventSets) {
+                    let {condition, newValue} = set;
+                    Conditions[condition] = newValue;
+                  }
+                }
+              }
+            }
           }
           break;
           

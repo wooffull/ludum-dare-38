@@ -13,13 +13,19 @@ var TileFree = function () {
   this.myGraphic1 = Assets.get(Assets.TILE_FREE0).texture;
   this.myGraphic2 = Assets.get(Assets.TILE_FREE1).texture;
   this.myGraphic3 = Assets.get(Assets.TILE_FREE2).texture;
+  this.myGraphic4 = Assets.get(Assets.TILE_FREE3).texture;
+  this.myGraphic5 = Assets.get(Assets.TILE_FREE4).texture;
   this.stateIdle = GameObject.createState();
-  this.frameIdle1 = GameObject.createFrame(this.myGraphic1, 4, this.hexVertices);
+  this.frameIdle1 = GameObject.createFrame(this.myGraphic1, 70, this.hexVertices);
   this.frameIdle2 = GameObject.createFrame(this.myGraphic2, 4, this.hexVertices);
-  this.frameIdle3 = GameObject.createFrame(this.myGraphic3, 4, this.hexVertices);
+  this.frameIdle3 = GameObject.createFrame(this.myGraphic3, 3, this.hexVertices);
+  this.frameIdle4 = GameObject.createFrame(this.myGraphic4, 3, this.hexVertices);
+  this.frameIdle5 = GameObject.createFrame(this.myGraphic5, 4, this.hexVertices);
   this.stateIdle.addFrame(this.frameIdle1);
   this.stateIdle.addFrame(this.frameIdle2);
   this.stateIdle.addFrame(this.frameIdle3);
+  this.stateIdle.addFrame(this.frameIdle4);
+  this.stateIdle.addFrame(this.frameIdle5);
   this.addState(TileFree.STATE.IDLE, this.stateIdle);
   // Reference graphics
   /*

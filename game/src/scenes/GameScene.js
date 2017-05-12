@@ -87,7 +87,11 @@ GameScene.prototype = Object.freeze(Object.create(Scene.prototype, {
       // This seems to perform faster than using filter()
       for (let obj of this._lastDrawnGameObjects) {
         if (this.canSee(obj)) {
-          this._stage.addChild(obj);
+          // Optimization for addChild
+          obj.parent = this._stage;
+          obj.transform._parentId = -1;
+          this._stage._boundsID++;
+          this._stage.children.push(obj);
         }
       }
       
@@ -206,7 +210,7 @@ GameScene.prototype = Object.freeze(Object.create(Scene.prototype, {
               var e = new entities.HoleCover();
               e.position.x = obj.x;
               e.position.y = obj.y;
-              this.addGameObject(e, 1);
+              this.addGameObject(e, 3);
               this.holeCovers.push(e);
               
             } else {
@@ -295,8 +299,8 @@ GameScene.prototype = Object.freeze(Object.create(Scene.prototype, {
       textBox.x = event.obj.x;
       textBox.y = event.obj.y - 75;
       
-      // Layer 5 for higher objects like text boxes
-      this.addGameObject(textBox, 5);
+      // Layer 6 for higher objects like text boxes
+      this.addGameObject(textBox, 6);
       event.textBox = textBox;
       this.camera.follow(this.player);
     }
@@ -317,12 +321,18 @@ GameScene.prototype = Object.freeze(Object.create(Scene.prototype, {
       textBox.x = event.obj.x;
       textBox.y = event.obj.y - 75;
       
+      if (textBox.x > this.player.x) {
+        this.player.setState(entities.Player.STATE.RIGHT);
+      } else {
+        this.player.setState(entities.Player.STATE.LEFT);
+      }
+      
       this.player.movementLock++;
       this.player.acceleration.multiply(0);
       this.player.velocity.multiply(0);
       
-      // Layer 5 for higher objects like text boxes
-      this.addGameObject(textBox, 5);
+      // Layer 6 for higher objects like text boxes
+      this.addGameObject(textBox, 6);
       event.textBox = textBox;
       
       $(textBox).on('next-text', (e) => {

@@ -8,17 +8,14 @@ var PhysicsObject = wfl.core.entities.PhysicsObject;
 var HexTile = require('./HexTile');
 var Player = require('./Player');
 
-var TileVoid = function () {
+var TileWood = function () {
   HexTile.call(this);
 
-  this.myGraphic1 = Assets.get(Assets.TILE_VOID0).texture;
-  this.myGraphic2 = Assets.get(Assets.TILE_VOID1).texture;
+  this.myGraphic1 = Assets.get(Assets.TILE_WOOD).texture;
   this.stateIdle = GameObject.createState();
-  this.frameIdle1 = GameObject.createFrame(this.myGraphic1, 45, this.hexVertices);
-  this.frameIdle2 = GameObject.createFrame(this.myGraphic2, 45, this.hexVertices);
+  this.frameIdle1 = GameObject.createFrame(this.myGraphic1, 15, this.hexVertices);
   this.stateIdle.addFrame(this.frameIdle1);
-  this.stateIdle.addFrame(this.frameIdle2);
-  this.addState(TileVoid.STATE.IDLE, this.stateIdle);
+  this.addState(TileWood.STATE.IDLE, this.stateIdle);
   // Reference graphics
   /*
   this.myGraphic1 = Assets.get(Assets.MY_GRAPHIC).texture;
@@ -37,13 +34,13 @@ var TileVoid = function () {
 
   // Add states
   /*
-  this.addState(TileVoid.STATE.IDLE, this.stateIdle);
+  this.addState(TileWood.STATE.IDLE, this.stateIdle);
   */
 
   this.solid = true;
 };
 
-Object.defineProperties(TileVoid, {
+Object.defineProperties(TileWood, {
   STATE : {
     value : {
       IDLE : "IDLE",
@@ -51,7 +48,7 @@ Object.defineProperties(TileVoid, {
   }
 });
 
-TileVoid.prototype = Object.freeze(Object.create(HexTile.prototype, {
+TileWood.prototype = Object.freeze(Object.create(HexTile.prototype, {
   update : {
     value : function (dt) {
       HexTile.prototype.update.call(this, dt);
@@ -61,30 +58,24 @@ TileVoid.prototype = Object.freeze(Object.create(HexTile.prototype, {
       var stateName = this.currentState.name;
 
       switch (stateName) {
-        case TileVoid.STATE.UP_WALK:
-          this.setState(TileVoid.STATE.UP_IDLE);
+        case TileWood.STATE.UP_WALK:
+          this.setState(TileWood.STATE.UP_IDLE);
         break;
-        case TileVoid.STATE.DOWN_WALK:
-          this.setState(TileVoid.STATE.DOWN_IDLE);
+        case TileWood.STATE.DOWN_WALK:
+          this.setState(TileWood.STATE.DOWN_IDLE);
         break;
-        case TileVoid.STATE.LEFT_WALK:
-          this.setState(TileVoid.STATE.LEFT_IDLE);
+        case TileWood.STATE.LEFT_WALK:
+          this.setState(TileWood.STATE.LEFT_IDLE);
         break;
-        case TileVoid.STATE.RIGHT_WALK:
-          this.setState(TileVoid.STATE.RIGHT_IDLE);
+        case TileWood.STATE.RIGHT_WALK:
+          this.setState(TileWood.STATE.RIGHT_IDLE);
         break;
       }
       */
     }
-  },
-  
-  canCollide: {
-    value: function (obj) {
-      return (obj instanceof Player);
-    }
   }
 }));
 
-Object.freeze(TileVoid);
+Object.freeze(TileWood);
 
-module.exports = TileVoid;
+module.exports = TileWood;

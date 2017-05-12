@@ -22,9 +22,9 @@ var HoleCover = function () {
   this.maxSpeed        = HoleCover.MAX_SPEED;
   this.maxAcceleration = HoleCover.MAX_ACCELERATION;
   
-  this.mass = 0.1;
-  this.restitution = 0.5;
-  this.friction = 0.0;
+  this.mass = 0.01;
+  this.restitution = 0.2;
+  this.friction = 1;
   
   this.ignorePlayer = false;
 };

@@ -2,8 +2,10 @@
 
 var Player = require('./Player.js');
 var BlockFull = require('./BlockFull.js');
+var TileGreenBorder = require('./TileGreenBorder.js');
 var HexTile = require('./HexTile.js');
 var TileWater = require('./TileWater.js');
+var TileWood = require('./TileWood.js');
 var TileJeremy = require('./TileJeremy.js');
 var TileOldJeremy = require('./TileOldJeremy.js');
 var TileGrass = require('./TileGrass.js');
@@ -15,6 +17,8 @@ var Title = require('./Title.js');
 
 var Hole = require('./Hole.js');
 var HoleCover = require('./HoleCover.js');
+
+var Bush = require('./Bush.js');
 
 var EventBounds = require('./EventBounds.js');
 
@@ -29,8 +33,10 @@ var NPCC = require('./NPCC.js');
 module.exports = {
   Player: Player,
   BlockFull: BlockFull,
+  TileGreenBorder: TileGreenBorder,
   HexTile: HexTile,
   TileWater: TileWater,
+  TileWood: TileWood,
   TileJeremy: TileJeremy,
   TileOldJeremy: TileOldJeremy,
   TileGrass: TileGrass,
@@ -42,6 +48,8 @@ module.exports = {
   
   Hole: Hole,
   HoleCover: HoleCover,
+  
+  Bush: Bush,
   
   EventBounds: EventBounds,
   
