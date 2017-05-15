@@ -22,8 +22,7 @@ var HoleCover = function () {
   this.maxSpeed        = HoleCover.MAX_SPEED;
   this.maxAcceleration = HoleCover.MAX_ACCELERATION;
   
-  this.mass = 0.01;
-  this.restitution = 0.2;
+  this.restitution = 0.9;
   this.friction = 1;
   
   this.ignorePlayer = false;
@@ -70,7 +69,14 @@ HoleCover.prototype = Object.freeze(Object.create(PhysicsObject.prototype, {
       }
       */
     }
-  }
+  },
+  
+  
+  canCollide: {
+    value: function (obj) {
+      return !(obj instanceof Player) || !this.ignorePlayer;
+    }
+  },
   
   /*canCollide: {
     value: function (obj) {

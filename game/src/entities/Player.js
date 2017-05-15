@@ -66,9 +66,11 @@ var Player = function () {
   
   this.movementLock = 0;
   
-  this.mass = 400;
-  this.restitution = 0.8;
+  this.mass = 2;
+  this.restitution = 1;
   this.friction = 1;
+  
+  this.destination = null;
 };
 
 Object.defineProperties(Player, {
@@ -85,7 +87,7 @@ Object.defineProperties(Player, {
   },
   
   SPRINT_BOOST_ACCELERATION : {
-    value : 2.225
+    value : 2.215
   },
 
   BOOST_ACCELERATION : {
@@ -106,6 +108,19 @@ Player.prototype = Object.freeze(Object.create(PhysicsObject.prototype, {
     value : function (dt) {
       PhysicsObject.prototype.update.call(this, dt);
       this.velocity.multiply(0.8);
+      
+      if (this.destination) {
+        var displacement =
+            geom.Vec2.subtract(this.destination, this.position);
+        displacement.limit(this.speedToDestination);
+        this.position.add(displacement);
+        
+        if (this.containsPoint(this.destination)) {
+          this.movementLock = false;
+          this.destination = null;
+        }
+      }
+      
       // Handle state
       /*
       var stateName = this.currentState.name;
@@ -190,6 +205,10 @@ Player.prototype = Object.freeze(Object.create(PhysicsObject.prototype, {
         if (leftPriority > rightPriority) {
           this.setState(Player.STATE.RUN_LEFT);
         } else if (leftPriority < rightPriority) {
+          this.setState(Player.STATE.RUN_RIGHT);
+        } else if (this.currentState.name === Player.STATE.LEFT) {
+          this.setState(Player.STATE.RUN_LEFT);
+        } else if (this.currentState.name === Player.STATE.RIGHT) {
           this.setState(Player.STATE.RUN_RIGHT);
         }
       } else {

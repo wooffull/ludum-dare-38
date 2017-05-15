@@ -12,5 +12,7 @@ module.exports = {
   
   gameover: "false",
   
-  map: "map0"
+  map: "map0",
+  
+  global: {}
 };

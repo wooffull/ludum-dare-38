@@ -26,7 +26,7 @@ const EntityBuilder = {
       g.customData.props = gameObjectData.props;
       
       // Get int from string ("layer0" -> 0)
-      g.layer = gameObjectData.layer.match(/\d+/)[0];
+      g.layer = parseInt(gameObjectData.layer.match(/\d+/)[0]);
     }
     
     if (g) {

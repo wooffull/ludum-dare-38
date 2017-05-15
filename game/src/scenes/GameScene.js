@@ -15,8 +15,6 @@ var GameScene = function (canvas, PIXI) {
   this.map = null;
   this.touchEventBounds = [];
   this.autoEventBounds = [];
-  this.voidTiles = [];
-  this.holeCovers = [];
   
   this.PIXI = PIXI;
   
@@ -44,7 +42,8 @@ Object.defineProperties(GameScene, {
     value: {
       COLLISION: "collision",
       AUTO: "auto",
-      TILE_CLAIM: "tileClaim"
+      TILE_CLAIM: "tileClaim",
+      DEFINE_POSITION: "definePosition"
     }
   }
 });
@@ -132,10 +131,6 @@ GameScene.prototype = Object.freeze(Object.create(Scene.prototype, {
         if (added.findReferences) {
           added.findReferences(all, this.PIXI);
         }
-        
-        if (added instanceof entities.TileVoid) {
-          this.voidTiles.push(added);
-        }
       }
       
       this._fadeInMap();
@@ -174,6 +169,9 @@ GameScene.prototype = Object.freeze(Object.create(Scene.prototype, {
           this.linkTouchEvent(obj, value);
         } else if (key === GameScene.PropertyTag.AUTO) {
           this.setupAutoEvent(obj, value);
+        } else if (key === GameScene.PropertyTag.DEFINE_POSITION) {
+          Conditions.global[value] =
+            new geom.Vec2(obj.position.x, obj.position.y);
         }
       }
     }
@@ -205,13 +203,12 @@ GameScene.prototype = Object.freeze(Object.create(Scene.prototype, {
           for (let set of eventSets) {
             let {condition, newValue} = set;
             
-            if (condition === "spawn" && newValue === "HoleCover")  {
+            if (condition === "spawn")  {
               var obj = ev.obj;
-              var e = new entities.HoleCover();
+              var e = new entities[newValue]();
               e.position.x = obj.x;
               e.position.y = obj.y;
               this.addGameObject(e, 3);
-              this.holeCovers.push(e);
               
             } else {
               Conditions[condition] = newValue;
@@ -375,8 +372,9 @@ GameScene.prototype = Object.freeze(Object.create(Scene.prototype, {
       var gos = this.getGameObjects();
       
       for (var i = 0; i < gos.length; i++) {
-        gos[i].acceleration.multiply(GameScene.FRICTION);
-        gos[i].velocity.multiply(GameScene.FRICTION);
+        var fric = gos[i].customData.groundFriction || GameScene.FRICTION;
+        gos[i].acceleration.multiply(fric);
+        gos[i].velocity.multiply(fric);
       }
     }
   },
@@ -394,22 +392,6 @@ GameScene.prototype = Object.freeze(Object.create(Scene.prototype, {
   _handleCollisions: {
     value: function (gameObjects) {
       this.checkTouchEvents();
-      
-      for (let cover of this.holeCovers) {
-        
-        for (let t of this.voidTiles) {
-          if (this.holeCovers.indexOf(cover) < 0) continue;
-          if (this.voidTiles.indexOf(t) < 0) continue;
-          
-          if (cover.checkNarrowPhaseCollision(t, {})) {
-            t.currentState.name = entities.HexTile.STATE.CLAIMING;
-            this.voidTiles.splice(this.voidTiles.indexOf(t), 1);
-            this.holeCovers.splice(this.holeCovers.indexOf(cover), 1);
-            cover.customData.retired = true;
-            t.solid = false;
-          }
-        }
-      }
       
       Scene.prototype._handleCollisions.call(this, gameObjects);
     }

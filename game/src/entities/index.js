@@ -9,6 +9,8 @@ var TileWood = require('./TileWood.js');
 var TileJeremy = require('./TileJeremy.js');
 var TileOldJeremy = require('./TileOldJeremy.js');
 var TileGrass = require('./TileGrass.js');
+var TileSnow = require('./TileSnow.js');
+var TileIce = require('./TileIce.js');
 var TileSand = require('./TileSand.js');
 var TileFree = require('./TileFree.js');
 var TileVoid = require('./TileVoid.js');
@@ -17,6 +19,7 @@ var Title = require('./Title.js');
 
 var Hole = require('./Hole.js');
 var HoleCover = require('./HoleCover.js');
+var VoidStone = require('./VoidStone.js');
 
 var Bush = require('./Bush.js');
 
@@ -40,6 +43,8 @@ module.exports = {
   TileJeremy: TileJeremy,
   TileOldJeremy: TileOldJeremy,
   TileGrass: TileGrass,
+  TileSnow: TileSnow,
+  TileIce: TileIce,
   TileSand: TileSand,
   TileFree: TileFree,
   TileVoid: TileVoid,
@@ -48,6 +53,7 @@ module.exports = {
   
   Hole: Hole,
   HoleCover: HoleCover,
+  VoidStone: VoidStone,
   
   Bush: Bush,
   

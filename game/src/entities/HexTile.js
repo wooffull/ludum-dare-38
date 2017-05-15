@@ -60,6 +60,7 @@ HexTile.prototype = Object.freeze(Object.create(PhysicsObject.prototype, {
       
       switch (stateName) {
         case HexTile.STATE.CLAIMING:
+          this.solid = false;
           if (this.children.indexOf(this.claimingGraphic) < 0) {
             this.addChild(this.claimedGraphic);
             this.addChild(this.claimingGraphic);

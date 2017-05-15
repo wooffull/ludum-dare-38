@@ -14,6 +14,8 @@ module.exports = {
   TILE_JEREMY: "./assets/img/TileJeremy.png",
   TILE_OLD_JEREMY: "./assets/img/TileOldJeremy.png",
   TILE_GRASS: "./assets/img/TileGrass.png",
+  TILE_SNOW: "./assets/img/TileSnow.png",
+  TILE_ICE: "./assets/img/TileIce.png",
   TILE_SAND: "./assets/img/TileSand.png",
   TILE_FREE0: "./assets/img/TileFree0.png",
   TILE_FREE1: "./assets/img/TileFree1.png",
@@ -27,6 +29,9 @@ module.exports = {
   
   HOLE: "./assets/img/Hole.png",
   HOLE_COVER: "./assets/img/HoleCover.png",
+  
+  VOID_STONE: "./assets/img/VoidStone.png",
+  VOID_STONE_ACTIVE: "./assets/img/VoidStoneActive.png",
   
   BUSH: "./assets/img/Bush.png",
   
