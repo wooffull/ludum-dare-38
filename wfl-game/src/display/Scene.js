@@ -566,11 +566,12 @@ Scene.prototype = Object.freeze(Object.create(Scene.prototype, {
 
       // Non-fixed objects can be pushed out to resolve
       // collisions; fixed objects cannot
-      if (!obj0.fixed) {
-        depth0 = totalDepth * (1 - m0 / (m0 + m1));
-      }
-      if (!obj1.fixed) {
-        depth1 = totalDepth * (1 - m1 / (m0 + m1));
+      if (!obj0.fixed && !obj1.fixed) {
+        depth0 = depth1 = totalDepth * 0.5;
+      } else if (!obj0.fixed) {
+        depth0 = totalDepth;
+      } else {
+        depth1 = totalDepth;
       }
 
       // Move the object out by its portion of penetration depth

@@ -957,7 +957,7 @@ PhysicsObject.prototype = Object.freeze(Object.create(GameObject.prototype, {
           this.collisionMomentumSum, impulseSumDirection
         );
         var vx =
-          this.collisionMomentumSum._x + this.collisionSurfaceImpulseSum._x ;
+          this.collisionMomentumSum._x + this.collisionSurfaceImpulseSum._x;
         var vy = 
           this.collisionMomentumSum._y + this.collisionSurfaceImpulseSum._y;
 
