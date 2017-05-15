@@ -327,6 +327,7 @@ GameScene.prototype = Object.freeze(Object.create(Scene.prototype, {
       this.player.movementLock++;
       this.player.acceleration.multiply(0);
       this.player.velocity.multiply(0);
+      this.player.fixed = true;
       
       // Layer 6 for higher objects like text boxes
       this.addGameObject(textBox, 6);
@@ -342,6 +343,7 @@ GameScene.prototype = Object.freeze(Object.create(Scene.prototype, {
         this.player.movementLock--;
         
         this.hideEventText(event);
+        this.player.fixed = false;
       });
     }
   },
