@@ -32,6 +32,7 @@ var Jeremy = require('./Jeremy.js');
 var NPCA = require('./NPCA.js');
 var NPCB = require('./NPCB.js');
 var NPCC = require('./NPCC.js');
+var NPCD = require('./NPCD.js');
 
 module.exports = {
   Player: Player,
@@ -66,4 +67,5 @@ module.exports = {
   NPCA: NPCA,
   NPCB: NPCB,
   NPCC: NPCC,
+  NPCD: NPCD,
 };

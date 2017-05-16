@@ -18,6 +18,8 @@ var GameScene = function (canvas, PIXI) {
   
   this.PIXI = PIXI;
   
+  this.currentTextEvent = null;
+  
   this.blackBox = new PIXI.Sprite.fromImage(Assets.BLACK_BOX);
 };
 
@@ -215,6 +217,16 @@ GameScene.prototype = Object.freeze(Object.create(Scene.prototype, {
             }
           }
           
+          if (this.currentTextEvent) {
+            var hittingEventBounds = this.player.checkBroadPhaseCollision(
+              this.currentTextEvent.obj
+            );
+
+            if (hittingEventBounds) {
+              this.hideEventText(this.currentTextEvent);
+            }
+          }
+          
           this.autoEventBounds.splice(this.autoEventBounds.indexOf(ev), 1);
         }
       }
@@ -296,6 +308,8 @@ GameScene.prototype = Object.freeze(Object.create(Scene.prototype, {
       textBox.x = event.obj.x;
       textBox.y = event.obj.y - 75;
       
+      this.currentTextEvent = event;
+      
       // Layer 6 for higher objects like text boxes
       this.addGameObject(textBox, 6);
       event.textBox = textBox;
@@ -329,6 +343,8 @@ GameScene.prototype = Object.freeze(Object.create(Scene.prototype, {
       this.player.velocity.multiply(0);
       this.player.fixed = true;
       
+      this.currentTextEvent = event;
+      
       // Layer 6 for higher objects like text boxes
       this.addGameObject(textBox, 6);
       event.textBox = textBox;
@@ -354,6 +370,7 @@ GameScene.prototype = Object.freeze(Object.create(Scene.prototype, {
       event.textBox.customData.retired = true;
       event.active = false;
       event.textBox = null;
+      this.currentTextEvent = null;
     }
   },
   

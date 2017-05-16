@@ -4,8 +4,8 @@
   "level": {
     "entities": [
       {
-        "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\BlockFull.png",
-        "name": "BlockFull"
+        "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileJeremy.png",
+        "name": "TileJeremy"
       },
       {
         "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\SpawnPoint.png",
@@ -44,8 +44,8 @@
         "name": "HoleCover"
       },
       {
-        "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileSand.png",
-        "name": "TileSand"
+        "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileJeremy.png",
+        "name": "TileJeremy"
       },
       {
         "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileGreenBorder.png",
@@ -4284,8 +4284,8 @@
       },
       {
         "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\BlockFull.png",
-          "name": "BlockFull"
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileJeremy.png",
+          "name": "TileJeremy"
         },
         "layer": "layer1",
         "props": [],
@@ -4295,8 +4295,8 @@
       },
       {
         "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\BlockFull.png",
-          "name": "BlockFull"
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileJeremy.png",
+          "name": "TileJeremy"
         },
         "layer": "layer1",
         "props": [],
@@ -4306,8 +4306,8 @@
       },
       {
         "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\BlockFull.png",
-          "name": "BlockFull"
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileJeremy.png",
+          "name": "TileJeremy"
         },
         "layer": "layer1",
         "props": [],
@@ -4317,8 +4317,8 @@
       },
       {
         "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\BlockFull.png",
-          "name": "BlockFull"
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileJeremy.png",
+          "name": "TileJeremy"
         },
         "layer": "layer1",
         "props": [],
@@ -4328,8 +4328,8 @@
       },
       {
         "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\BlockFull.png",
-          "name": "BlockFull"
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileJeremy.png",
+          "name": "TileJeremy"
         },
         "layer": "layer1",
         "props": [],
@@ -4339,8 +4339,8 @@
       },
       {
         "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\BlockFull.png",
-          "name": "BlockFull"
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileJeremy.png",
+          "name": "TileJeremy"
         },
         "layer": "layer1",
         "props": [],
@@ -4350,8 +4350,8 @@
       },
       {
         "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\BlockFull.png",
-          "name": "BlockFull"
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileJeremy.png",
+          "name": "TileJeremy"
         },
         "layer": "layer1",
         "props": [],
@@ -4361,8 +4361,8 @@
       },
       {
         "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\BlockFull.png",
-          "name": "BlockFull"
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileJeremy.png",
+          "name": "TileJeremy"
         },
         "layer": "layer1",
         "props": [],
@@ -4372,8 +4372,8 @@
       },
       {
         "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\BlockFull.png",
-          "name": "BlockFull"
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileJeremy.png",
+          "name": "TileJeremy"
         },
         "layer": "layer1",
         "props": [],
@@ -4383,8 +4383,8 @@
       },
       {
         "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\BlockFull.png",
-          "name": "BlockFull"
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileJeremy.png",
+          "name": "TileJeremy"
         },
         "layer": "layer1",
         "props": [],
@@ -4394,8 +4394,8 @@
       },
       {
         "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\BlockFull.png",
-          "name": "BlockFull"
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileJeremy.png",
+          "name": "TileJeremy"
         },
         "layer": "layer1",
         "props": [],
@@ -4405,8 +4405,8 @@
       },
       {
         "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\BlockFull.png",
-          "name": "BlockFull"
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileJeremy.png",
+          "name": "TileJeremy"
         },
         "layer": "layer1",
         "props": [],
@@ -4416,8 +4416,8 @@
       },
       {
         "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\BlockFull.png",
-          "name": "BlockFull"
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileJeremy.png",
+          "name": "TileJeremy"
         },
         "layer": "layer1",
         "props": [],
@@ -4427,8 +4427,8 @@
       },
       {
         "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\BlockFull.png",
-          "name": "BlockFull"
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileJeremy.png",
+          "name": "TileJeremy"
         },
         "layer": "layer1",
         "props": [],
@@ -4438,8 +4438,8 @@
       },
       {
         "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\BlockFull.png",
-          "name": "BlockFull"
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileJeremy.png",
+          "name": "TileJeremy"
         },
         "layer": "layer1",
         "props": [],
@@ -4449,8 +4449,8 @@
       },
       {
         "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\BlockFull.png",
-          "name": "BlockFull"
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileJeremy.png",
+          "name": "TileJeremy"
         },
         "layer": "layer1",
         "props": [],
@@ -4460,8 +4460,8 @@
       },
       {
         "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\BlockFull.png",
-          "name": "BlockFull"
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileJeremy.png",
+          "name": "TileJeremy"
         },
         "layer": "layer1",
         "props": [],
@@ -4471,8 +4471,8 @@
       },
       {
         "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\BlockFull.png",
-          "name": "BlockFull"
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileJeremy.png",
+          "name": "TileJeremy"
         },
         "layer": "layer1",
         "props": [],
@@ -4482,8 +4482,8 @@
       },
       {
         "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\BlockFull.png",
-          "name": "BlockFull"
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileJeremy.png",
+          "name": "TileJeremy"
         },
         "layer": "layer1",
         "props": [],
@@ -4493,8 +4493,8 @@
       },
       {
         "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\BlockFull.png",
-          "name": "BlockFull"
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileJeremy.png",
+          "name": "TileJeremy"
         },
         "layer": "layer1",
         "props": [],
@@ -4504,8 +4504,8 @@
       },
       {
         "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\BlockFull.png",
-          "name": "BlockFull"
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileJeremy.png",
+          "name": "TileJeremy"
         },
         "layer": "layer1",
         "props": [],
@@ -4603,8 +4603,8 @@
       },
       {
         "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileSand.png",
-          "name": "TileSand"
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileJeremy.png",
+          "name": "TileJeremy"
         },
         "layer": "layer1",
         "props": [],
@@ -4614,8 +4614,8 @@
       },
       {
         "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileSand.png",
-          "name": "TileSand"
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileJeremy.png",
+          "name": "TileJeremy"
         },
         "layer": "layer1",
         "props": [],
@@ -4625,8 +4625,8 @@
       },
       {
         "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileSand.png",
-          "name": "TileSand"
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileJeremy.png",
+          "name": "TileJeremy"
         },
         "layer": "layer1",
         "props": [],
@@ -4636,8 +4636,8 @@
       },
       {
         "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileSand.png",
-          "name": "TileSand"
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileJeremy.png",
+          "name": "TileJeremy"
         },
         "layer": "layer1",
         "props": [],
@@ -4647,8 +4647,8 @@
       },
       {
         "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileSand.png",
-          "name": "TileSand"
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileJeremy.png",
+          "name": "TileJeremy"
         },
         "layer": "layer1",
         "props": [],
@@ -4658,8 +4658,8 @@
       },
       {
         "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileSand.png",
-          "name": "TileSand"
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileJeremy.png",
+          "name": "TileJeremy"
         },
         "layer": "layer1",
         "props": [],
@@ -4669,8 +4669,8 @@
       },
       {
         "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileSand.png",
-          "name": "TileSand"
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileJeremy.png",
+          "name": "TileJeremy"
         },
         "layer": "layer1",
         "props": [],
@@ -4680,8 +4680,8 @@
       },
       {
         "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileSand.png",
-          "name": "TileSand"
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileJeremy.png",
+          "name": "TileJeremy"
         },
         "layer": "layer1",
         "props": [],
@@ -4691,8 +4691,8 @@
       },
       {
         "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileSand.png",
-          "name": "TileSand"
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileJeremy.png",
+          "name": "TileJeremy"
         },
         "layer": "layer1",
         "props": [],
@@ -4702,8 +4702,8 @@
       },
       {
         "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileSand.png",
-          "name": "TileSand"
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileJeremy.png",
+          "name": "TileJeremy"
         },
         "layer": "layer1",
         "props": [],
@@ -4713,8 +4713,8 @@
       },
       {
         "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileSand.png",
-          "name": "TileSand"
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileJeremy.png",
+          "name": "TileJeremy"
         },
         "layer": "layer1",
         "props": [],
@@ -4724,8 +4724,8 @@
       },
       {
         "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileSand.png",
-          "name": "TileSand"
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileJeremy.png",
+          "name": "TileJeremy"
         },
         "layer": "layer1",
         "props": [],
@@ -4735,8 +4735,8 @@
       },
       {
         "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileSand.png",
-          "name": "TileSand"
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileJeremy.png",
+          "name": "TileJeremy"
         },
         "layer": "layer1",
         "props": [],
@@ -4746,8 +4746,8 @@
       },
       {
         "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileSand.png",
-          "name": "TileSand"
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileJeremy.png",
+          "name": "TileJeremy"
         },
         "layer": "layer1",
         "props": [],
@@ -4757,8 +4757,8 @@
       },
       {
         "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileSand.png",
-          "name": "TileSand"
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileJeremy.png",
+          "name": "TileJeremy"
         },
         "layer": "layer1",
         "props": [],
@@ -4768,8 +4768,8 @@
       },
       {
         "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileSand.png",
-          "name": "TileSand"
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileJeremy.png",
+          "name": "TileJeremy"
         },
         "layer": "layer1",
         "props": [],
@@ -4779,8 +4779,8 @@
       },
       {
         "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileSand.png",
-          "name": "TileSand"
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileJeremy.png",
+          "name": "TileJeremy"
         },
         "layer": "layer1",
         "props": [],
@@ -4790,8 +4790,8 @@
       },
       {
         "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileSand.png",
-          "name": "TileSand"
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileJeremy.png",
+          "name": "TileJeremy"
         },
         "layer": "layer1",
         "props": [],
@@ -4801,8 +4801,8 @@
       },
       {
         "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileSand.png",
-          "name": "TileSand"
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileJeremy.png",
+          "name": "TileJeremy"
         },
         "layer": "layer1",
         "props": [],
@@ -4812,8 +4812,8 @@
       },
       {
         "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileSand.png",
-          "name": "TileSand"
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileJeremy.png",
+          "name": "TileJeremy"
         },
         "layer": "layer1",
         "props": [],
@@ -4823,8 +4823,8 @@
       },
       {
         "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileSand.png",
-          "name": "TileSand"
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileJeremy.png",
+          "name": "TileJeremy"
         },
         "layer": "layer1",
         "props": [],
@@ -4834,8 +4834,8 @@
       },
       {
         "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileSand.png",
-          "name": "TileSand"
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileJeremy.png",
+          "name": "TileJeremy"
         },
         "layer": "layer1",
         "props": [],
@@ -4845,8 +4845,8 @@
       },
       {
         "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileSand.png",
-          "name": "TileSand"
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileJeremy.png",
+          "name": "TileJeremy"
         },
         "layer": "layer1",
         "props": [],
@@ -4856,8 +4856,8 @@
       },
       {
         "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileSand.png",
-          "name": "TileSand"
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileJeremy.png",
+          "name": "TileJeremy"
         },
         "layer": "layer1",
         "props": [],
@@ -4867,8 +4867,8 @@
       },
       {
         "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\BlockFull.png",
-          "name": "BlockFull"
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileJeremy.png",
+          "name": "TileJeremy"
         },
         "layer": "layer1",
         "props": [],
@@ -4878,8 +4878,8 @@
       },
       {
         "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\BlockFull.png",
-          "name": "BlockFull"
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileJeremy.png",
+          "name": "TileJeremy"
         },
         "layer": "layer1",
         "props": [],
@@ -4889,8 +4889,8 @@
       },
       {
         "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\BlockFull.png",
-          "name": "BlockFull"
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileJeremy.png",
+          "name": "TileJeremy"
         },
         "layer": "layer1",
         "props": [],
@@ -4900,8 +4900,8 @@
       },
       {
         "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\BlockFull.png",
-          "name": "BlockFull"
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileJeremy.png",
+          "name": "TileJeremy"
         },
         "layer": "layer1",
         "props": [],
@@ -4911,8 +4911,8 @@
       },
       {
         "entity": {
-          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\BlockFull.png",
-          "name": "BlockFull"
+          "imageSource": "C:\\wamp\\www\\ludum-dare-38\\game\\assets\\img\\TileJeremy.png",
+          "name": "TileJeremy"
         },
         "layer": "layer1",
         "props": [],

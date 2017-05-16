@@ -30,6 +30,7 @@ var TitleScene = function (canvas, PIXI) {
   Conditions.jend = "0";
   Conditions.dtalk = "0";
   Conditions.mtalk = "0";
+  Conditions.btalk = "0";
   Conditions.gameover = "false";
   Conditions.map = "map0";
 };

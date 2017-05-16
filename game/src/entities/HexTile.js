@@ -20,6 +20,7 @@ var HexTile = function () {
     this.hexVertices.push(new geom.Vec2(x, y));
   }
   
+  this.friction = 1;
   this.solid = false;
   this.fixed = true;
   this.prevSprite = null;

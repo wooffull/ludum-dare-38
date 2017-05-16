@@ -805,9 +805,10 @@ PhysicsObject.prototype = Object.freeze(Object.create(GameObject.prototype, {
           otherBestEdge.v0
         ).normalize();
         
-        // Flip the edge direction if it's opposite from the other edge's
-        // direction. This is to ensure winding order is correct
-        if (geom.Vec2.dot(collisionData.edgeDirection, bestEdgeDirection) < 0) {
+        // Flip the edge direction if it's opposite from the velocity.
+        // This is to ensure the edge is always pointing in the direction the
+        // object is going.
+        if (geom.Vec2.dot(collisionData.edgeDirection, this.velocity) < 0) {
           collisionData.edgeDirection.multiply(-1);
         }
       }

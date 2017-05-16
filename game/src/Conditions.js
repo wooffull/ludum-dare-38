@@ -10,6 +10,9 @@ module.exports = {
   // Maxy
   mtalk: "0",
   
+  // Beatrice
+  btalk: "0",
+  
   gameover: "false",
   
   map: "map0",

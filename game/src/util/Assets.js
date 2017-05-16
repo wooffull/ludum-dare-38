@@ -63,6 +63,9 @@ module.exports = {
   NPC_C0: "./assets/img/NPCC0.png",
   NPC_C1: "./assets/img/NPCC1.png",
   
+  NPC_D0: "./assets/img/NPCD0.png",
+  NPC_D1: "./assets/img/NPCD1.png",
+  
   // Fonts
   //FONT_TEXTURE: "./assets/font/ld38.png",
   FONT: "./assets/font/ld38.xml",

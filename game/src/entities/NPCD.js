@@ -5,20 +5,18 @@ var util          = require('../util');
 var Assets        = util.Assets;
 var GameObject    = wfl.core.entities.GameObject;
 var PhysicsObject = wfl.core.entities.PhysicsObject;
-var HexTile = require('./HexTile');
-var Player = require('./Player');
 
-var TileVoid = function () {
-  HexTile.call(this);
+var NPCD = function () {
+  PhysicsObject.call(this);
 
-  this.myGraphic1 = Assets.get(Assets.TILE_VOID0).texture;
-  this.myGraphic2 = Assets.get(Assets.TILE_VOID1).texture;
+  this.myGraphic1 = Assets.get(Assets.NPC_D0).texture;
+  this.myGraphic2 = Assets.get(Assets.NPC_D1).texture;
   this.stateIdle = GameObject.createState();
-  this.frameIdle1 = GameObject.createFrame(this.myGraphic1, 45, this.hexVertices);
-  this.frameIdle2 = GameObject.createFrame(this.myGraphic2, 45, this.hexVertices);
+  this.frameIdle1 = GameObject.createFrame(this.myGraphic1, 45);
+  this.frameIdle2 = GameObject.createFrame(this.myGraphic2, 45);
   this.stateIdle.addFrame(this.frameIdle1);
   this.stateIdle.addFrame(this.frameIdle2);
-  this.addState(TileVoid.STATE.IDLE, this.stateIdle);
+  this.addState(NPCD.STATE.IDLE, this.stateIdle);
   // Reference graphics
   /*
   this.myGraphic1 = Assets.get(Assets.MY_GRAPHIC).texture;
@@ -37,12 +35,14 @@ var TileVoid = function () {
 
   // Add states
   /*
-  this.addState(TileVoid.STATE.IDLE, this.stateIdle);
+  this.addState(NPCD.STATE.IDLE, this.stateIdle);
   */
-  this.solid = true;
+  
+  this.solid = false;
+  this.fixed = true;
 };
 
-Object.defineProperties(TileVoid, {
+Object.defineProperties(NPCD, {
   STATE : {
     value : {
       IDLE : "IDLE",
@@ -50,27 +50,27 @@ Object.defineProperties(TileVoid, {
   }
 });
 
-TileVoid.prototype = Object.freeze(Object.create(HexTile.prototype, {
+NPCD.prototype = Object.freeze(Object.create(PhysicsObject.prototype, {
   update : {
     value : function (dt) {
-      HexTile.prototype.update.call(this, dt);
+      PhysicsObject.prototype.update.call(this, dt);
       
       // Handle state
       /*
       var stateName = this.currentState.name;
 
       switch (stateName) {
-        case TileVoid.STATE.UP_WALK:
-          this.setState(TileVoid.STATE.UP_IDLE);
+        case NPCD.STATE.UP_WALK:
+          this.setState(NPCD.STATE.UP_IDLE);
         break;
-        case TileVoid.STATE.DOWN_WALK:
-          this.setState(TileVoid.STATE.DOWN_IDLE);
+        case NPCD.STATE.DOWN_WALK:
+          this.setState(NPCD.STATE.DOWN_IDLE);
         break;
-        case TileVoid.STATE.LEFT_WALK:
-          this.setState(TileVoid.STATE.LEFT_IDLE);
+        case NPCD.STATE.LEFT_WALK:
+          this.setState(NPCD.STATE.LEFT_IDLE);
         break;
-        case TileVoid.STATE.RIGHT_WALK:
-          this.setState(TileVoid.STATE.RIGHT_IDLE);
+        case NPCD.STATE.RIGHT_WALK:
+          this.setState(NPCD.STATE.RIGHT_IDLE);
         break;
       }
       */
@@ -78,6 +78,6 @@ TileVoid.prototype = Object.freeze(Object.create(HexTile.prototype, {
   }
 }));
 
-Object.freeze(TileVoid);
+Object.freeze(NPCD);
 
-module.exports = TileVoid;
+module.exports = NPCD;
