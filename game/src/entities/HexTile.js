@@ -50,7 +50,7 @@ Object.defineProperties(HexTile, {
     }
   },
   CLAIM_RATE: {
-    value: 0.075
+    value: 0.105
   }
 });
 

@@ -56,7 +56,7 @@ Hole.prototype = Object.freeze(Object.create(PhysicsObject.prototype, {
               );
 
               if (displacement.getMagnitudeSquared() > 2) {
-                var impulse = displacement.clone().multiply(0.035);
+                var impulse = displacement.clone().multiply(0.05);
                 this.holeCover.position.add(impulse);
               } else {
                 this.filled = true;

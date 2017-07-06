@@ -5,6 +5,7 @@ var BlockFull = require('./BlockFull.js');
 var TileGreenBorder = require('./TileGreenBorder.js');
 var HexTile = require('./HexTile.js');
 var TileWater = require('./TileWater.js');
+var TileRock = require('./TileRock.js');
 var TileWood = require('./TileWood.js');
 var TileJeremy = require('./TileJeremy.js');
 var TileOldJeremy = require('./TileOldJeremy.js');
@@ -40,6 +41,7 @@ module.exports = {
   TileGreenBorder: TileGreenBorder,
   HexTile: HexTile,
   TileWater: TileWater,
+  TileRock: TileRock,
   TileWood: TileWood,
   TileJeremy: TileJeremy,
   TileOldJeremy: TileOldJeremy,

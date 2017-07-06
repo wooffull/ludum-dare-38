@@ -27,8 +27,6 @@ var VoidStone = function () {
   this.addState(VoidStone.STATE.ACTIVE, this.stateActive);
 
   this.solid = true;
-  
-  this.eventBounds = [];
 
   // Set constants
   this.maxSpeed        = VoidStone.MAX_SPEED;
@@ -68,6 +66,7 @@ VoidStone.prototype = Object.freeze(Object.create(PhysicsObject.prototype, {
           this.fixed = true;
           
           if (this.eventBounds) {
+            if (!this.eventBounds.customData) debugger;
             var props = this.eventBounds.customData.props;
             
             for (const p of props) {

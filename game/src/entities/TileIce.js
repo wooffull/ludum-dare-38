@@ -20,8 +20,6 @@ var TileIce = function () {
   this.stateIdle.addFrame(this.frameIdle1);
   this.addState(TileIce.STATE.IDLE, this.stateIdle);
   
-  this.eventBounds = [];
-  
   this.allowOverlapEvents = true;
   
   // Reference graphics

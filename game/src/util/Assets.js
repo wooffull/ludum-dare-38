@@ -10,6 +10,7 @@ module.exports = {
   BLOCK: "./assets/img/BlockFull.png",
   TILE_GREEN_BORDER: "./assets/img/TileGreenBorder.png",
   TILE_WATER: "./assets/img/TileWater.png",
+  TILE_ROCK: "./assets/img/TileRock.png",
   TILE_WOOD: "./assets/img/TileWood.png",
   TILE_JEREMY: "./assets/img/TileJeremy.png",
   TILE_OLD_JEREMY: "./assets/img/TileOldJeremy.png",
